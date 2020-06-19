@@ -1,0 +1,12 @@
+@import "./GetInTouchSectionBox.scss";
+@import "./GetInTouchSectionBoxItems.scss";
+
+.get-in-touch-section-box{
+    padding-top: 100px;}
+.get-in-touch-section-title{
+    padding-bottom: 100px;
+    color:#1C1B29;
+    text-align: center;
+    font-size: $main-fontSize-for-section-title;
+    font-weight: bold;
+}

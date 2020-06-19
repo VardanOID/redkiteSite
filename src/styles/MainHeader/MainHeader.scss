@@ -1,0 +1,21 @@
+@import "./MainHeaderLogo.scss";
+@import "./MainHeaderItemsBox.scss";
+@import "./MainHeaderItem.scss";
+@import "./MainHeaderCallButton.scss";
+
+.mainHeaderBox {
+  color: $main-white-color;
+
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10%;
+  // background: black;
+  // justify-self:center;
+  justify-self: center;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  margin-top: 25px;
+}

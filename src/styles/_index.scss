@@ -1,0 +1,14 @@
+@import "./_const.scss";
+@import "./MainHeader/MainHeader.scss";
+@import "./FirstSection/FirstSection.scss";
+@import "./ClientsSection/ClientsSection.scss";
+@import "./SolutionsSection/SolutionsSection.scss";
+@import "./TestimonialsSection/TestimonialsSection.scss";
+@import "./WorksSection/WorksSection.scss";
+@import "./AboutSection/AboutSection.scss";
+@import "./GetInTouchSection/GetInTouchSection.scss";
+@import "./MainFooter/MainFooter.scss";
+
+*{
+    font-family:  $mian-font-family;
+}

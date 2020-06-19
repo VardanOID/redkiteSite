@@ -1,0 +1,27 @@
+.about-section-first-row-items-box{
+width:90%;
+}
+
+.about-section-first-row-items-text{
+    border-top:1px solid  $main-grey-color ;
+    width:670px;
+    text-align: center;
+    letter-spacing: 0px;
+color: #767575;
+padding-top: 30px;
+}
+.about-section-pics{
+    // width:50%;
+    margin-bottom: 30px;
+}
+.pic2{
+    margin-bottom: 33.2px;
+}
+@media only screen and (max-width: 1500px) {
+    .about-section-pics{
+        // width:60%;
+    }
+    .about-section-first-row-items-text{
+        // width:90%;
+    }
+  }

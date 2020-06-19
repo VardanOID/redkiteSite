@@ -1,0 +1,26 @@
+@import "./SolutionsSectionBox.scss";
+@import "./SolutionSectionBoxItem.scss";
+@import "./SolutionsSectionAllServices.scss";
+
+.solutions-section-box {
+  background-image: url(../../img/Bg_image.png);
+  padding: 100px 0;
+  background-size: cover;
+}
+
+.solutions-section-title {
+  font-size: $main-fontSize-for-section-title;
+  color: $main-white-color;
+  text-align: center;
+}
+.solutions-section-subtitle {
+  width: 864px;
+  font-size: $main-fontSize-for-text;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: $main-white-color;
+}
+.solution-bg-gradient {
+  width: 100%;
+  position: absolute;
+}

@@ -1,0 +1,14 @@
+@import "./TestimonialsSectionSlider.scss";
+
+.testimonials-section-box{
+    margin-bottom: 100px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;   
+}
+
+.control-dots ul li {
+    color:red;
+    font-weight: bold;
+  display: inline-block; 
+}

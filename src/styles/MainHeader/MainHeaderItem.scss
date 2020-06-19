@@ -1,0 +1,11 @@
+.main-header-item{
+  font-size: $main-fontSize-for-text;
+  padding-right: 60px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .main-header-item{
+        font-size: 15px;
+        padding-right: 30px;
+      }
+  }

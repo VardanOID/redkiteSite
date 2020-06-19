@@ -1,0 +1,22 @@
+.about-section-first-row-box{
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: center;
+    column-gap: 240px;
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .about-section-first-row-box{
+        column-gap: 50px;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 1500px) {
+    .about-section-first-row-box{
+        column-gap: 5px;
+    }
+    
+    
+  }
