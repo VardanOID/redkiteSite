@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/redkiteSite/precache-manifest.7ab9ceef44dd5b9df3cae7ced45e19e8.js"
+  "/redkiteSite/precache-manifest.49d45a5121dbb5771268020255990d80.js"
 );
 
 self.addEventListener('message', (event) => {

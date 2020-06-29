@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e6ea09b5c72965e2eb494e3ed6ac8c9",
+    "revision": "6929d5ad49aacf4b3463418782bf3730",
     "url": "/redkiteSite/index.html"
   },
   {
-    "revision": "f204e21c47fb5d4cb60d",
+    "revision": "4d477d16a2eb10ba73f1",
     "url": "/redkiteSite/static/css/2.86abc55e.chunk.css"
   },
   {
-    "revision": "b94198da1413c579b92a",
-    "url": "/redkiteSite/static/css/main.a7d97a89.chunk.css"
+    "revision": "c3e84af473c4fc4b865e",
+    "url": "/redkiteSite/static/css/main.f6922557.chunk.css"
   },
   {
-    "revision": "f204e21c47fb5d4cb60d",
-    "url": "/redkiteSite/static/js/2.78176809.chunk.js"
+    "revision": "4d477d16a2eb10ba73f1",
+    "url": "/redkiteSite/static/js/2.910a4712.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/redkiteSite/static/js/2.78176809.chunk.js.LICENSE.txt"
+    "revision": "56729d980da09961afe8d497a21eec12",
+    "url": "/redkiteSite/static/js/2.910a4712.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b94198da1413c579b92a",
-    "url": "/redkiteSite/static/js/main.79a71eae.chunk.js"
+    "revision": "c3e84af473c4fc4b865e",
+    "url": "/redkiteSite/static/js/main.3a1cc63b.chunk.js"
   },
   {
     "revision": "0d97046e0184b397c5bc",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "17bdbf8048841a5d135881d361e3cd91",
     "url": "/redkiteSite/static/media/Bg_image.17bdbf80.png"
+  },
+  {
+    "revision": "70b9fcf1cd2b380d3a136df8684fb0e5",
+    "url": "/redkiteSite/static/media/Ecommerce_img.70b9fcf1.png"
   },
   {
     "revision": "107a18d26a3ba447c865862ec48220f1",
