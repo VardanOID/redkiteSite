@@ -1,7 +1,7 @@
 import React from "react";
-import IconCall from "../../img/IconCall.svg";
-import IconMail from "../../img/IconMail.svg";
-import IconPlace from "../../img/IconPlace.svg";
+import IconCall from "../../../img/IconCall.svg";
+import IconMail from "../../../img/IconMail.svg";
+import IconPlace from "../../../img/IconPlace.svg";
 
 import GetInTouchSectionBoxItems from "./GetInTouchSectionBoxItems";
 function GetInTouchSectionBox() {

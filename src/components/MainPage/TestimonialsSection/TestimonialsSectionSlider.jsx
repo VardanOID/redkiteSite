@@ -1,5 +1,5 @@
 import React from "react";
-import White from "../../img/white.png";
+import White from "../../../img/white.png";
 let style = {
     backgroundColor: "white",
     // width:"1000px",

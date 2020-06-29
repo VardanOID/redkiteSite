@@ -1,0 +1,32 @@
+.ecommerce-page-cover-box-text-box {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: start;
+
+  position: absolute;
+  // right: 0;
+  left: 5%;
+  // bottom: 20%;
+  top: 20%;
+  color: $main-white-color;
+  width: 881px;
+}
+.ecommerce-page-cover-box-text-title {
+  font-size: 80px;
+  font-weight: bold;
+}
+.ecommerce-page-cover-box-text-subtitle {
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .ecommerce-page-cover-box-text-box {
+    width: 551px;
+  }
+  .ecommerce-page-cover-box-text-title {
+    font-size: $main-fontSize-for-section-title;
+  }
+  .ecommerce-page-cover-box-text-subtitle {
+    font-size: $main-fontSize-for-text;
+  }
+}

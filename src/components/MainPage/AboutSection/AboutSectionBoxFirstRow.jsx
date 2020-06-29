@@ -1,7 +1,7 @@
 import React from "react";
 import AboutSectionFirstRowItems from "./AboutSectionBoxFirstRowItems";
-import Vision from "../../img/OurVision.svg";
-import Team from "../../img/TheTeam.svg";
+import Vision from "../../../img/OurVision.svg";
+import Team from "../../../img/TheTeam.svg";
 
 function AboutSectionBoxFirstRow() {
   return (

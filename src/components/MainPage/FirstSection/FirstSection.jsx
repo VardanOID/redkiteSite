@@ -1,8 +1,8 @@
 import React from "react";
 import FirstSectionTextInfo from "./FirstSectionTextInfo";
 import FirstSectionPartners from "./FirstSectionPartners";
-import BgVideo_Pic from "../../img/BgVideo_Pic.png";
-import "../../styles/_index.scss";
+import BgVideo_Pic from "../../../img/BgVideo_Pic.png";
+import "../../../styles/_index.scss";
 
 
 function FirstSection() {

@@ -1,9 +1,9 @@
 import React from "react";
 import AboutSectionBoxSecondRowItems from "./AboutSectionBoxSecondRowItems";
-import Cycle from "../../img/IconCycle.svg";
-import Personal from "../../img/IconPersonal.svg";
-import Quality from "../../img/IconQuality.svg";
-import Growth from "../../img/IconGrowth.svg";
+import Cycle from "../../../img/IconCycle.svg";
+import Personal from "../../../img/IconPersonal.svg";
+import Quality from "../../../img/IconQuality.svg";
+import Growth from "../../../img/IconGrowth.svg";
 
 function AboutSectionBoxSecondRow() {
   return (

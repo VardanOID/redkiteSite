@@ -1,6 +1,6 @@
 import React from "react";
-import SolutionSectionBox from "./SolutionsSectionBox";
-import SolutionsSectionAllServices from "./SolutionsSectionAllServices";
+import SolutionSectionBox from "../SoluionsSection/SolutionsSectionBox";
+import SolutionsSectionAllServices from "../SoluionsSection/SolutionsSectionAllServices";
 function SolutionsSection() {
   return (
     

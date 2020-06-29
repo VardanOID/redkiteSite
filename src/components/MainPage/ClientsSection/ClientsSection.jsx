@@ -1,15 +1,15 @@
 import React from "react";
 import ClienstsSectionClients from "./ClientsSectionClients"
-import Client1 from "../../img/1@2x.png"
-import Client2 from "../../img/2@2x.png"
-import Client3 from "../../img/3@2x.png"
-import Client4 from "../../img/4@2x.png"
-import Client5 from "../../img/5@2x.png"
-import Client6 from "../../img/6@2x.png"
-import Client7 from "../../img/7@2x.png"
-import Client8 from "../../img/8@2x.png"
-import Client9 from "../../img/9@2x.png"
-import Client10 from "../../img/10@2x.png"
+import Client1 from "../../../img/1@2x.png"
+import Client2 from "../../../img/2@2x.png"
+import Client3 from "../../../img/3@2x.png"
+import Client4 from "../../../img/4@2x.png"
+import Client5 from "../../../img/5@2x.png"
+import Client6 from "../../../img/6@2x.png"
+import Client7 from "../../../img/7@2x.png"
+import Client8 from "../../../img/8@2x.png"
+import Client9 from "../../../img/9@2x.png"
+import Client10 from "../../../img/10@2x.png"
 
 
 function ClientsSection() {

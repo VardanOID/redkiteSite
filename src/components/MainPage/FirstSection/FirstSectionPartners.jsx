@@ -1,6 +1,6 @@
 import React from "react";
-import Partner1 from "../../img/Partner_logo_1.png";
-import Partner2 from "../../img/Partner_logo_2.png";
+import Partner1 from "../../../img/Partner_logo_1.png";
+import Partner2 from "../../../img/Partner_logo_2.png";
 
 function FirstSectionPartners() {
   return (

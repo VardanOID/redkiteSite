@@ -1,6 +1,10 @@
 .main-header-item{
   font-size: $main-fontSize-for-text;
   padding-right: 60px;
+  color: white;
+  a{
+    text-decoration: none;
+  }
 }
 
 @media only screen and (max-width: 1500px) {
