@@ -1,0 +1,15 @@
+@import "./EcommerceCustomerJourneyButton.scss";
+@import "./EcommerceCustomerJourneyItems.scss";
+@import "./EcommerceCustomerJourneyItemsBox.scss";
+@import "./EcommerceCustomerJourneyItemsLeftPart.scss";
+@import "./EcommerceCustomerJourneyItemsRightPart.scss";
+.ecommerce-customer-journey-box{
+margin-top:100px;
+background: #EFEFEF;
+}
+.ecommerce-customer-journey-box-title{
+font-size: $main-fontSize-for-section-title;
+text-align: center;
+font-weight: bold;
+padding: 95px 0 100px 0;
+}

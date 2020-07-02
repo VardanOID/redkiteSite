@@ -1,0 +1,14 @@
+.ecommerce-customer-journey-items-right-part-box {
+  width: 100%;
+}
+
+.ecommerce-customer-journey-items-right-part-text {
+  font-size: $main-fontSize-for-text-Ecommerce;
+
+}
+@media only screen and (max-width: 1500px) {
+  .ecommerce-customer-journey-items-right-part-text {
+    font-size: 20px;
+  
+  }
+}

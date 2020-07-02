@@ -6,6 +6,7 @@
   background-image: url(../../img/Bg_image.png);
   padding: 100px 0;
   background-size: cover;
+
 }
 
 .solutions-section-title {
@@ -20,7 +21,55 @@
   margin-top: 20px;
   color: $main-white-color;
 }
-.solution-bg-gradient {
-  width: 100%;
-  position: absolute;
+// .solution-bg-gradient {
+//   width: 100%;
+//   position: absolute;
+// }
+.AppEcommerce {
+  background-image: url(../../img/a.png);
+
 }
+
+.AppSalesMarketing {
+  background-image: url(../../img/c.png);
+}
+
+.AppAnalytics {
+  background-image: url(../../img/d.png);
+}
+
+.AppMiddleware {
+  background-image: url(../../img/b.png);
+}
+
+// .parent{
+//   margin: 20px;
+//   // height: 300px;
+//   border: 1px solid blue;
+//   overflow: hidden;
+// }
+// .child{
+//   // height: 100%;
+//   // width: 100%;
+//   /* background-size: cover; */
+//   /* background-repeat: no-repeat; */
+//   -webkit-transition: all 0.5s;
+//   -moz-transition: all 0.5s;
+//   -o-transition: all 0.5s;
+//   transition: all 0.5s;
+// }
+
+// .parent:hover .child,
+// .parent:focus .child {
+//   -ms-transform: scale(1.2);
+//   -moz-transform: scale(1.2);
+//   -webkit-transform: scale(1.2);
+//   -o-transform: scale(1.2);
+//   transform: scale(1.2);
+// }
+// @media screen and (max-width: 960px) {
+//   .parent {
+//     width: 100%;
+//     margin: 20px 0px;
+//   }
+// }

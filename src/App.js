@@ -11,12 +11,17 @@ import MainHeader from "./components/MainHeader/MainHeader";
 import MainPage from "./components/MainPage/MainPage";
 import ECommercePage from "./components/ECommercePage/ECommercePage";
 import MainFooter from "./components/MainFooter/MainFooter";
-
+import { useLocation } from "react-router-dom";
 // import "./App.scss";
 
 function App() {
+  let style = {
+   
+overflowX: useLocation().pathname !== "/"  ? "hidden" : "auto",
+  };
   return (
-    <div className="App">
+    <div className="App" 
+    style={style}>
       <MainHeader />
       <Switch>
       {/* <FirstSection />

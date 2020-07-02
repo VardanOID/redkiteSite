@@ -1,23 +1,23 @@
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import IconPlay from "../../../img/Icon_Play.svg";
 // import axios from "axios";
 
 function FirstSectionTextInfo() {
-  const [hasError, setErrors] = useState(false);
-  const [headLine, setHeadLine] = useState({});
+  // const [hasError, setErrors] = useState(false);
+  // const [headLine, setHeadLine] = useState({});
 
-  async function fetchData() {
-    const res = await fetch("https://cors-anywhere.herokuapp.com/http://rb2.redkite.io/homepage.json");
-    res
-      .json()
-      .then(res => setHeadLine(res))
-      .catch(err => setErrors(err));
-  }
-  useEffect(() => {
-    fetchData();
-  });
+  // async function fetchData() {
+  //   const res = await fetch("https://cors-anywhere.herokuapp.com/http://rb2.redkite.io/homepage.json");
+  //   res
+  //     .json()
+  //     .then(res => setHeadLine(res))
+  //     .catch(err => setErrors(err));
+  // }
+  // useEffect(() => {
+  //   fetchData();
+  // });
 
 
   // const [headLines, setHeadLine] = useState([]);

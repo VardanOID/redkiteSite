@@ -1,0 +1,10 @@
+.ecommerce-customer-journey-items-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  column-gap: 9%;
+  margin: 0 110px 50px;
+  background-color: $main-white-color;
+  box-shadow: $main-box-shadow;
+  border-radius: 110px 0 0 110px ;
+}

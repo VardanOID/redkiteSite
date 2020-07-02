@@ -1,14 +1,34 @@
 @import "./TestimonialsSectionSlider.scss";
 
-.testimonials-section-box{
-    margin-bottom: 100px;
-    display: grid;
-    justify-items: center;
-    justify-content: center;   
-}
+
 
 .control-dots ul li {
     color:red;
     font-weight: bold;
   display: inline-block; 
 }
+
+.testimonials-section-box{
+  padding: 0 200px;
+  background: white;
+  padding-bottom: 130px;
+  // border:2px solid red;
+  // background: green;
+}
+// .testimonials-section-box div{
+//   outline: none;
+ 
+// }
+
+// .testimonials-section-box-title{
+//   padding: 100px 0;
+//   font-size: $main-fontSize-for-section-title;
+//   font-weight: bold;
+// text-align: center;
+// color:grey;
+// }
+.testimonials-section-auter-and-text{
+  // background:blue;
+  width:100%;
+}
+

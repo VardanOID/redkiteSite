@@ -1,0 +1,31 @@
+@import "./ECommercePageRedkiteWillItems.scss";
+@import "./ECommercePageRedkiteWillItemsBox.scss";
+
+.ecommerce-page-redkite-will-box{
+box-shadow: $main-box-shadow;
+// border:2px solid red;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: -150px;
+
+color:$main-title-and-text-color;
+max-width:100%;
+padding: 0 20px;
+position: relative;
+background-color: $main-white-color;
+}
+
+.ecommerce-page-redkite-will-box-title{
+text-align: center;
+font-size: $main-fontSize-for-section-title;
+font-weight: bold;
+padding-top: 5%;
+z-index: 11;
+}
+@media only screen and (max-width: 1500px) {
+    .ecommerce-page-redkite-will-box{
+     
+        margin-top: -100px;
+     
+        }
+}

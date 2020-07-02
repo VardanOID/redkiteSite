@@ -1,5 +1,5 @@
 import React from "react";
-import RedkiteMainLogo from "../../img/Logo.svg";
+// import RedkiteMainLogo from "../../img/Logo.svg";
 import RedkiteMainLogoWhite from "../../img/LogoWhite.png";
 import RedkiteMainLogoBlack from "../../img/Logo.png";
 import { NavLink, useLocation } from "react-router-dom";
@@ -13,7 +13,7 @@ function MainHeaderLogo() {
   return (
     <div className="mainHeaderLogoBox">
       <NavLink exact to="/">
-      <img src={useLocation().pathname == "/" ? RedkiteMainLogoWhite : RedkiteMainLogoBlack} alt="" />
+      <img src={useLocation().pathname === "/" ? RedkiteMainLogoWhite : RedkiteMainLogoBlack} alt="" />
       </NavLink>
     </div>
   );
