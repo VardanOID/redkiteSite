@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6929d5ad49aacf4b3463418782bf3730",
+    "revision": "0e60b4aebdf147a547fc9ba468258a89",
     "url": "/redkiteSite/index.html"
   },
   {
-    "revision": "4d477d16a2eb10ba73f1",
-    "url": "/redkiteSite/static/css/2.86abc55e.chunk.css"
+    "revision": "8cd569c20ac83637526f",
+    "url": "/redkiteSite/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "c3e84af473c4fc4b865e",
-    "url": "/redkiteSite/static/css/main.f6922557.chunk.css"
+    "revision": "f412b77be50613121722",
+    "url": "/redkiteSite/static/css/main.88286941.chunk.css"
   },
   {
-    "revision": "4d477d16a2eb10ba73f1",
-    "url": "/redkiteSite/static/js/2.910a4712.chunk.js"
+    "revision": "8cd569c20ac83637526f",
+    "url": "/redkiteSite/static/js/2.f34033ef.chunk.js"
   },
   {
-    "revision": "56729d980da09961afe8d497a21eec12",
-    "url": "/redkiteSite/static/js/2.910a4712.chunk.js.LICENSE.txt"
+    "revision": "8c32977b1ed3abd86a00381b66ff2515",
+    "url": "/redkiteSite/static/js/2.f34033ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3e84af473c4fc4b865e",
-    "url": "/redkiteSite/static/js/main.3a1cc63b.chunk.js"
+    "revision": "f412b77be50613121722",
+    "url": "/redkiteSite/static/js/main.5f803887.chunk.js"
   },
   {
     "revision": "0d97046e0184b397c5bc",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/redkiteSite/static/media/Bg_image.17bdbf80.png"
   },
   {
+    "revision": "69090186ab819db3a42b6bd7a646385f",
+    "url": "/redkiteSite/static/media/Ecommerce3_bgPhoto.69090186.png"
+  },
+  {
     "revision": "70b9fcf1cd2b380d3a136df8684fb0e5",
     "url": "/redkiteSite/static/media/Ecommerce_img.70b9fcf1.png"
   },
@@ -120,6 +124,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/redkiteSite/static/media/IconRight.9a589378.svg"
   },
   {
+    "revision": "bf050e77d9c28a86febfdabeae682efe",
+    "url": "/redkiteSite/static/media/Icon_Checked1.bf050e77.svg"
+  },
+  {
+    "revision": "a8c0fb2a51e83b2bd973a4b18ec9e5aa",
+    "url": "/redkiteSite/static/media/Icon_Checked2.a8c0fb2a.svg"
+  },
+  {
+    "revision": "2aaa002a33e86fd74813cb5d28ff1f02",
+    "url": "/redkiteSite/static/media/Icon_Checked3.2aaa002a.svg"
+  },
+  {
+    "revision": "1f9ac2c5e2b0d6675730aaec67afa549",
+    "url": "/redkiteSite/static/media/Icon_Checked4.1f9ac2c5.svg"
+  },
+  {
     "revision": "76128bb64dae600d3dc9adcb1ed3fd18",
     "url": "/redkiteSite/static/media/Icon_Phone.76128bb6.svg"
   },
@@ -130,10 +150,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ac6760c1b4857e2a565b4c5ee6b0b4eb",
     "url": "/redkiteSite/static/media/Instagram.ac6760c1.svg"
-  },
-  {
-    "revision": "333c28a1043f3fcc217bfe04fd25214b",
-    "url": "/redkiteSite/static/media/Logo.333c28a1.svg"
   },
   {
     "revision": "b53b06d58a937ef8f110f2a8bfb48295",
