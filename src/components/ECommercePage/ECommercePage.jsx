@@ -4,6 +4,8 @@ import ECommercePageBoxForBoxAndText from "./EcommerceBoxAndText/ECommercePageBo
 import ECommerceSecondBoxWithIMGAndBox from "./EcommerceSecondBoxWithIMGAndBox/ECommerceSecondBoxWithIMGAndBox";
 import ECommercePageRedkiteWill from "./EcommerceWill/ECommercePageRedkiteWill";
 import EcommerceCustomerJourney from "./EcommerceCustomerJourney/EcommerceCustomerJourney";
+import EcommerceWhyRedkite from "./EcommerceWhyRedkite/EcommerceWhyRedkite";
+import EcommerceSuccessStories from "./EcommerceSUccessStories/EcommerceSuccessStories";
 function ECommercePage() {
   return (
     <div>
@@ -12,6 +14,8 @@ function ECommercePage() {
       <ECommerceSecondBoxWithIMGAndBox />
       <ECommercePageRedkiteWill />
       <EcommerceCustomerJourney />
+      <EcommerceWhyRedkite />
+      <EcommerceSuccessStories />
     </div>
   );
 }

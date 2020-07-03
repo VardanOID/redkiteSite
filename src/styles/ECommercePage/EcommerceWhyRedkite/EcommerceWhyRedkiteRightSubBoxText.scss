@@ -1,0 +1,31 @@
+.ecommerce-why-redkite-right-subbox-text-box{
+
+}
+.ecommerce-why-redkite-right-subbox-title{
+font-weight: bold;
+font-size:$main-fontSize-for-section-title;
+
+color:$main-title-and-text-color;
+margin-bottom: 46px;
+}
+.ecommerce-why-redkite-right-subbox-text{
+font-size: $main-fontSize-for-text-Ecommerce;
+    color:$main-title-and-text-color;
+    margin-bottom: 51px;
+}
+
+
+@media only screen and (max-width: 1650px) {
+    .ecommerce-why-redkite-right-subbox-title{
+        font-size:40px;
+    }
+    .ecommerce-why-redkite-right-subbox-text{
+       font-size:20px ;
+    }
+  }
+  @media only screen and (max-width: 1366px) {
+    .ecommerce-why-redkite-right-subbox-text{
+       font-size:18px ;
+    }
+  }
+  
