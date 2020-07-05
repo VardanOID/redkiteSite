@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e60b4aebdf147a547fc9ba468258a89",
+    "revision": "213f580563fd641cb9f3188d971a2310",
     "url": "/redkiteSite/index.html"
   },
   {
-    "revision": "8cd569c20ac83637526f",
+    "revision": "79ba744b3a2e94d76271",
     "url": "/redkiteSite/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "f412b77be50613121722",
-    "url": "/redkiteSite/static/css/main.88286941.chunk.css"
+    "revision": "f8c19f1cdb5e763812fe",
+    "url": "/redkiteSite/static/css/main.8a5ed454.chunk.css"
   },
   {
-    "revision": "8cd569c20ac83637526f",
-    "url": "/redkiteSite/static/js/2.f34033ef.chunk.js"
+    "revision": "79ba744b3a2e94d76271",
+    "url": "/redkiteSite/static/js/2.0da4598b.chunk.js"
   },
   {
     "revision": "8c32977b1ed3abd86a00381b66ff2515",
-    "url": "/redkiteSite/static/js/2.f34033ef.chunk.js.LICENSE.txt"
+    "url": "/redkiteSite/static/js/2.0da4598b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f412b77be50613121722",
-    "url": "/redkiteSite/static/js/main.5f803887.chunk.js"
+    "revision": "f8c19f1cdb5e763812fe",
+    "url": "/redkiteSite/static/js/main.f5d925e3.chunk.js"
   },
   {
     "revision": "0d97046e0184b397c5bc",
@@ -78,6 +78,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69090186ab819db3a42b6bd7a646385f",
     "url": "/redkiteSite/static/media/Ecommerce3_bgPhoto.69090186.png"
+  },
+  {
+    "revision": "2cc835740c8dc7581267e8e9e19f86ff",
+    "url": "/redkiteSite/static/media/EcommerceWhyBg.2cc83574.png"
+  },
+  {
+    "revision": "8db1a18cbaab71746d1915a23b24cce4",
+    "url": "/redkiteSite/static/media/Ecommerce_BgSucess.8db1a18c.png"
+  },
+  {
+    "revision": "052eaad98c10f21253601815b704e4f3",
+    "url": "/redkiteSite/static/media/Ecommerce_BgSucess1.052eaad9.png"
   },
   {
     "revision": "70b9fcf1cd2b380d3a136df8684fb0e5",
@@ -166,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "744acefdfbab25532496cfd06d2c234a",
     "url": "/redkiteSite/static/media/a.744acefd.png"
+  },
+  {
+    "revision": "2ea0b1c0934d5f70ae3bed135dca1e65",
+    "url": "/redkiteSite/static/media/attached-attach-svgrepo-com.2ea0b1c0.svg"
   },
   {
     "revision": "cecc309adce2deeacd5bdb821ce17495",

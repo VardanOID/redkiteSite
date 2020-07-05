@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/redkiteSite/static/css/main.88286941.chunk.css",
-    "main.js": "/redkiteSite/static/js/main.5f803887.chunk.js",
-    "main.js.map": "/redkiteSite/static/js/main.5f803887.chunk.js.map",
+    "main.css": "/redkiteSite/static/css/main.8a5ed454.chunk.css",
+    "main.js": "/redkiteSite/static/js/main.f5d925e3.chunk.js",
+    "main.js.map": "/redkiteSite/static/js/main.f5d925e3.chunk.js.map",
     "runtime-main.js": "/redkiteSite/static/js/runtime-main.2c7330e9.js",
     "runtime-main.js.map": "/redkiteSite/static/js/runtime-main.2c7330e9.js.map",
     "static/css/2.829c9cb5.chunk.css": "/redkiteSite/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.f34033ef.chunk.js": "/redkiteSite/static/js/2.f34033ef.chunk.js",
-    "static/js/2.f34033ef.chunk.js.map": "/redkiteSite/static/js/2.f34033ef.chunk.js.map",
+    "static/js/2.0da4598b.chunk.js": "/redkiteSite/static/js/2.0da4598b.chunk.js",
+    "static/js/2.0da4598b.chunk.js.map": "/redkiteSite/static/js/2.0da4598b.chunk.js.map",
     "index.html": "/redkiteSite/index.html",
-    "precache-manifest.847fa979f62ee0e84bcac4598898603f.js": "/redkiteSite/precache-manifest.847fa979f62ee0e84bcac4598898603f.js",
+    "precache-manifest.8a7c0dbe0c111e2b28b20c734ba1ac8d.js": "/redkiteSite/precache-manifest.8a7c0dbe0c111e2b28b20c734ba1ac8d.js",
     "service-worker.js": "/redkiteSite/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/redkiteSite/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.88286941.chunk.css.map": "/redkiteSite/static/css/main.88286941.chunk.css.map",
-    "static/js/2.f34033ef.chunk.js.LICENSE.txt": "/redkiteSite/static/js/2.f34033ef.chunk.js.LICENSE.txt",
+    "static/css/main.8a5ed454.chunk.css.map": "/redkiteSite/static/css/main.8a5ed454.chunk.css.map",
+    "static/js/2.0da4598b.chunk.js.LICENSE.txt": "/redkiteSite/static/js/2.0da4598b.chunk.js.LICENSE.txt",
     "static/media/10@2x.png": "/redkiteSite/static/media/10@2x.74e3aba8.png",
     "static/media/1@2x.png": "/redkiteSite/static/media/1@2x.4ad8f678.png",
     "static/media/2@2x.png": "/redkiteSite/static/media/2@2x.ecfb2891.png",
@@ -27,6 +27,9 @@
     "static/media/BgVideo_Pic.png": "/redkiteSite/static/media/BgVideo_Pic.3c740efe.png",
     "static/media/index.scss": "/redkiteSite/static/media/d.23b08a62.png",
     "static/media/Ecommerce3_bgPhoto.png": "/redkiteSite/static/media/Ecommerce3_bgPhoto.69090186.png",
+    "static/media/EcommerceWhyBg.png": "/redkiteSite/static/media/EcommerceWhyBg.2cc83574.png",
+    "static/media/Ecommerce_BgSucess.png": "/redkiteSite/static/media/Ecommerce_BgSucess.8db1a18c.png",
+    "static/media/Ecommerce_BgSucess1.png": "/redkiteSite/static/media/Ecommerce_BgSucess1.052eaad9.png",
     "static/media/Ecommerce_img.png": "/redkiteSite/static/media/Ecommerce_img.70b9fcf1.png",
     "static/media/Facebook.svg": "/redkiteSite/static/media/Facebook.107a18d2.svg",
     "static/media/IconCall.svg": "/redkiteSite/static/media/IconCall.fe865f87.svg",
@@ -54,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.2c7330e9.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.f34033ef.chunk.js",
-    "static/css/main.88286941.chunk.css",
-    "static/js/main.5f803887.chunk.js"
+    "static/js/2.0da4598b.chunk.js",
+    "static/css/main.8a5ed454.chunk.css",
+    "static/js/main.f5d925e3.chunk.js"
   ]
 }
