@@ -6,6 +6,7 @@ import ECommercePageRedkiteWill from "./EcommerceWill/ECommercePageRedkiteWill";
 import EcommerceCustomerJourney from "./EcommerceCustomerJourney/EcommerceCustomerJourney";
 import EcommerceWhyRedkite from "./EcommerceWhyRedkite/EcommerceWhyRedkite";
 import EcommerceSuccessStories from "./EcommerceSUccessStories/EcommerceSuccessStories";
+import EcommerceContactUs from "./EcommerceContactUs/EcommerceContactUs";
 function ECommercePage() {
   return (
     <div>
@@ -16,6 +17,7 @@ function ECommercePage() {
       <EcommerceCustomerJourney />
       <EcommerceWhyRedkite />
       <EcommerceSuccessStories />
+      <EcommerceContactUs />
     </div>
   );
 }

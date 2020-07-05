@@ -17,7 +17,7 @@ import { useLocation } from "react-router-dom";
 function App() {
   let style = {
    
-// overflowX: useLocation().pathname !== "/"  ? "hidden" : "auto",
+overflowX: useLocation().pathname !== "/"  ? "hidden" : "auto",
   };
   return (
     <div className="App" 
