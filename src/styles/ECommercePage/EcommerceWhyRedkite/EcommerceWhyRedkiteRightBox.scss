@@ -1,0 +1,35 @@
+.ecommerce-why-redkite-right-box-box{
+    // display: inline-grid;
+    // grid-template-columns: 10%;
+    box-shadow: $main-box-shadow;
+    justify-self: end;
+    // align-self: end;
+    // justify-items: end;
+    // align-items: end;
+    // position: relative;
+background-color: $main-white-color;
+  width: 43%;;
+  height: 100%;
+    // grid-template-columns: 100%;
+    // justify-content: flex-end;
+   
+}
+
+@media only screen and (min-width: 2200px) {
+    .ecommerce-why-redkite-right-box-box{
+        height: 110%;
+    }
+}
+@media only screen and (min-width: 2300px) {
+    .ecommerce-why-redkite-right-box-box{
+        height: 120%;
+    }
+}
+
+
+@media only screen and (max-width: 1806px) {
+    .ecommerce-why-redkite-right-box-box{
+        height: 90%;
+    }
+  }
+  

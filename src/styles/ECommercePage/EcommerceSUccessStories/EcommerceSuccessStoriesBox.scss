@@ -1,0 +1,47 @@
+.ecommerce-success-stories-box-box {
+  max-width: 100%;
+  max-height: 100%;
+  // border: 1px solid red;
+  margin-bottom: 100px;
+}
+
+.ecommerce-success-stories-box-img {
+  width: 100vw;
+}
+.ecommerce-success-stories-box-info-box{
+    //
+display: grid;
+// margin-top: -26%;
+
+}
+
+.a{
+
+    // justify-self: start;
+    // align-self: end;
+    // justify-items: end;
+    // align-items: end;
+    // position: relative;
+background-color: $main-white-color;
+  width: 57%;;
+  height: 100%;
+  margin-top: -26%;
+}
+
+@media only screen and (min-width: 2200px) {
+  .a{
+      height: 110%;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .a{
+      height: 120%;
+  }
+}
+
+
+@media only screen and (max-width: 1806px) {
+  .a{
+      height: 70%;
+  }
+}
