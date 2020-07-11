@@ -1,21 +1,16 @@
-.ecommerce-page-redkite-will-items-box{
-    // align-self: flex-start;
+.ecommerce-page-redkite-will-items-img {
+  padding-bottom: 10%;
+  padding-top: 20%;
 }
 
-.ecommerce-page-redkite-will-items-img{
-    padding-bottom: 10%;
-    padding-top: 20%;
-  
-}
-
-.ecommerce-page-redkite-will-items-text{
-    text-align: center;
-    font-size: 30px;
+.ecommerce-page-redkite-will-items-text {
+  text-align: center;
+  font-size: 30px;
   padding: 0 5%;
 }
 
 @media only screen and (max-width: 1500px) {
-    .ecommerce-page-redkite-will-items-text{
-        font-size: 20px;
-    }
+  .ecommerce-page-redkite-will-items-text {
+    font-size: 20px;
+  }
 }

@@ -1,15 +1,13 @@
 import React from "react";
-import AboutSectionBoxFirstRow from "./AboutSectionBoxFirstRow"
-import AboutSectionBoxSecondRow from "./AboutSectionBoxSecondRow"
+import AboutSectionBoxFirstRow from "./AboutSectionBoxFirstRow";
+import AboutSectionBoxSecondRow from "./AboutSectionBoxSecondRow";
 
-
-function AboutSectionBox() {
+function AboutSectionBox({ aboutBig, aboutSmall }) {
   return (
     <div className="about-section-box-box">
-  
-      <AboutSectionBoxFirstRow />
- 
-      <AboutSectionBoxSecondRow />
+      <AboutSectionBoxFirstRow aboutBig={aboutBig} />
+
+      <AboutSectionBoxSecondRow aboutSmall={aboutSmall} />
     </div>
   );
 }

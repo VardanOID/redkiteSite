@@ -1,8 +1,45 @@
-.ecommerce-success-stories-sub-box-box{
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 100%;
-    background: $main-white-color;
-    box-shadow: $main-box-shadow
+.ecommerce-success-stories-sub-box-box {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  background: $main-white-color;
+  box-shadow: $main-box-shadow;
+}
+.left-right-box:nth-child(even) {
+  // justify-self: end;
+  background-color: $main-white-color;
+  width: 57%;
+  height: 100%;
+  margin-top: -26%;
+}
+.left-right-box:nth-child(odd) {
+  // justify-self: start;
+  background-color: $main-white-color;
+  width: 57%;
+  height: 100%;
+  margin-top: -26%;
+}
+.test .left-right-box {
+  justify-self: end;
+}
+
+.test:nth-child(even) .left-right-box {
+  justify-self: start;
+}
+@media only screen and (min-width: 2200px) {
+  .left-right-box {
+    height: 110%;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .left-right-box {
+    height: 120%;
+  }
+}
+
+@media only screen and (max-width: 1806px) {
+  .left-right-box {
+    height: 70%;
+  }
 }

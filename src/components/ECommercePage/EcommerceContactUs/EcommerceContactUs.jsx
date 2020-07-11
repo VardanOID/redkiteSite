@@ -53,8 +53,7 @@ class EcommerceContactUs extends React.Component {
     return (
       <div className="ecommerce-contact-us-box">
         <div className="ecommerce-contact-us-title">
-          Contact us to learn more about how Redkite can help your business
-          achieve its every goal!
+          {this.props.fifthSectionHeading}
         </div>
         <form onSubmit={this.handelSubmit}>
           <div className="ecommerce-contact-us-form-structure">
@@ -120,23 +119,23 @@ class EcommerceContactUs extends React.Component {
                 </formGroup>
               </div>
               <div className="ecommerce-contact-us-form-NDA-and-atach">
-            <div>
-              <input type="checkbox" name="checked" />
-              <label for="check">
-                {" "}
-                Sign a mutual NDA before a conversation.<sup> ⓘ </sup>
-              </label>
-              <br></br>
-            </div>
-            <label className="attached-file">
-              <div id="hide">
-                <input type="file" id="file" onChange={a} />
-              </div>{" "}
-              <label className="attached-file-text">
-                Attach a file (Max. 2 MB).
-              </label>
-            </label>
-          </div>
+                <div>
+                  <input type="checkbox" name="checked" />
+                  <label for="check">
+                    {" "}
+                    Sign a mutual NDA before a conversation.<sup> ⓘ </sup>
+                  </label>
+                  <br></br>
+                </div>
+                <label className="attached-file">
+                  <div id="hide">
+                    <input type="file" id="file" onChange={a} />
+                  </div>{" "}
+                  <label className="attached-file-text">
+                    Attach a file (Max. 2 MB).
+                  </label>
+                </label>
+              </div>
             </div>
             <div>
               <div className="ecommerce-contact-us-form-message">
@@ -149,9 +148,7 @@ class EcommerceContactUs extends React.Component {
                   ></textarea>
                 </formGroup>
               </div>
-              
             </div>
-            
           </div>
 
           {/* <div className="ecommerce-contact-us-form-NDA-and-atach">

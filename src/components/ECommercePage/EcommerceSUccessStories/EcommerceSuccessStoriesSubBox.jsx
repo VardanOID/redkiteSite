@@ -1,18 +1,16 @@
 import React from "react";
 import EcommerceSuccessStoriesSubBoxText from "./EcommerceSuccessStoriesSubBoxText";
 import EcommerceSuccessStoriesSubBoxButton from "./EcommerceSuccessStoriesSubBoxButton";
-function EcommerceSuccessStoriesSubBox({ title, text, value}) {
-  
+function EcommerceSuccessStoriesSubBox({ heading, paragraph, value }) {
   return (
-    <div className="ecommerce-success-stories-sub-box-box">
-   
-      <EcommerceSuccessStoriesSubBoxText
-        title={title}
-        text={text}
-   
-
-      />
-      <EcommerceSuccessStoriesSubBoxButton value={value}/>
+    <div className="left-right-box">
+      <div className="ecommerce-success-stories-sub-box-box">
+        <EcommerceSuccessStoriesSubBoxText
+          heading={heading}
+          paragraph={paragraph}
+        />
+        <EcommerceSuccessStoriesSubBoxButton />
+      </div>
     </div>
   );
 }

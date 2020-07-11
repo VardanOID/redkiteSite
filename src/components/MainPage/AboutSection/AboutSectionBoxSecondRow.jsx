@@ -1,14 +1,18 @@
 import React from "react";
 import AboutSectionBoxSecondRowItems from "./AboutSectionBoxSecondRowItems";
-import Cycle from "../../../img/IconCycle.svg";
-import Personal from "../../../img/IconPersonal.svg";
-import Quality from "../../../img/IconQuality.svg";
-import Growth from "../../../img/IconGrowth.svg";
+// import Cycle from "../../../img/IconCycle.svg";
+// import Personal from "../../../img/IconPersonal.svg";
+// import Quality from "../../../img/IconQuality.svg";
+// import Growth from "../../../img/IconGrowth.svg";
 
-function AboutSectionBoxSecondRow() {
+function AboutSectionBoxSecondRow({ aboutSmall }) {
   return (
     <div className="about-section-box-second-row-box">
-      <AboutSectionBoxSecondRowItems
+      {!!aboutSmall &&
+        aboutSmall.map((data) => {
+          return <AboutSectionBoxSecondRowItems {...data} picStyle="pic2" />;
+        })}
+      {/* <AboutSectionBoxSecondRowItems
         aboutImg={Cycle}
         imgAlt="Cycle"
         aboutText="Text is needed. Text is needed. Text is needed.Text is needed.Text is needed. Text is needed. Text is needed. Text is needed."
@@ -31,7 +35,7 @@ function AboutSectionBoxSecondRow() {
         imgAlt="Cycle"
         aboutText="We pride ourselves in investing considerable part of our revenue into education and training of our employees. We grow professionally each day and bring success to our customers."
         aboutTitle="Nonstop growth"
-      />
+      /> */}
     </div>
   );
 }

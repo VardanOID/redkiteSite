@@ -1,10 +1,14 @@
 import React from "react";
 import ECommercePageRedkiteWillItemsBox from "./ECommercePageRedkiteWillItemsBox";
-function ECommercePageRedkiteWill() {
+function ECommercePageRedkiteWill({ redkiteWill }) {
   return (
-    <div className="ecommerce-page-redkite-will-box">
-     <div className="ecommerce-page-redkite-will-box-title"> Redkite Will: </div> 
-      <ECommercePageRedkiteWillItemsBox />
+    <div>
+      <div className="ecommerce-page-redkite-will-box">
+        <div className="ecommerce-page-redkite-will-box-title">
+          Redkite Will:
+        </div>
+        <ECommercePageRedkiteWillItemsBox redkiteWill={redkiteWill} />
+      </div>
     </div>
   );
 }

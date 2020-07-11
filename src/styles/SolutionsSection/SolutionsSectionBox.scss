@@ -1,6 +1,6 @@
-.solutions-section-box-box{
-    // display:grid;
-    // grid-template-columns: auto auto auto auto ;
-display: flex;
-
+.solutions-section-box-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  // display: flex;
+  max-width: 100%;
 }

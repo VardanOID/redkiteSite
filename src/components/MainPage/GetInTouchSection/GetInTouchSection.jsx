@@ -1,10 +1,10 @@
 import React from "react";
 import GetInTouchSectionBox from "./GetInTouchSectionBox";
-function GetInTouchSection() {
+function GetInTouchSection({ footer }) {
   return (
     <div className="get-in-touch-section-box">
-    <div className="get-in-touch-section-title">Get In Touch</div>
-    <GetInTouchSectionBox />
+      <div className="get-in-touch-section-title">Get In Touch</div>
+      <GetInTouchSectionBox footer={footer} />
     </div>
   );
 }

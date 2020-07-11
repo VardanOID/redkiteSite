@@ -6,12 +6,12 @@ function ECommercePageRedkiteWillItems(props) {
       <div className="ecommerce-page-redkite-will-items-text">
         <div>
           <img
-            src={props.checkimg}
+            src={props.image}
             alt=""
             className="ecommerce-page-redkite-will-items-img"
           />
         </div>
-        {props.text}
+        {props.paragraph}
       </div>
     </div>
   );

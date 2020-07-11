@@ -1,10 +1,10 @@
 import React from "react";
 
-function EcommerceSuccessStoriesSubBoxText({title, text}) {
+function EcommerceSuccessStoriesSubBoxText({ heading, paragraph }) {
   return (
     <div className="ecommerce-success-stories-sub-box-Text-box">
-<div className="commerce-success-stories-sub-box-title">{title}</div>
-<div className="commerce-success-stories-sub-box-Text">{text}</div>
+      <div className="commerce-success-stories-sub-box-title">{heading}</div>
+      <div className="commerce-success-stories-sub-box-Text">{paragraph}</div>
     </div>
   );
 }

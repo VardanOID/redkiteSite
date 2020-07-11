@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ECommercePageCoverBox from "./EcommerseCover/ECommercePageCoverBox";
 import ECommercePageBoxForBoxAndText from "./EcommerceBoxAndText/ECommercePageBoxForBoxAndText";
 import ECommerceSecondBoxWithIMGAndBox from "./EcommerceSecondBoxWithIMGAndBox/ECommerceSecondBoxWithIMGAndBox";
@@ -8,16 +8,54 @@ import EcommerceWhyRedkite from "./EcommerceWhyRedkite/EcommerceWhyRedkite";
 import EcommerceSuccessStories from "./EcommerceSUccessStories/EcommerceSuccessStories";
 import EcommerceContactUs from "./EcommerceContactUs/EcommerceContactUs";
 function ECommercePage() {
+  const [hasError, setErrors] = useState(false);
+  const [apiData, setApiData] = useState({});
+
+  async function fetchData() {
+    const res = await fetch(
+      "https://cors-anywhere.herokuapp.com/http://php-mysql-stack-dnifq.run-eu-central1.goorm.io/index.php?p=ecommerce.json"
+    );
+    res
+      .json()
+      .then((res) => setApiData(res))
+      .catch((err) => setErrors(err));
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  // console.log(apiData.firstSectionHeading);
+  console.log(apiData);
+  console.log(apiData.secondSection);
+  console.log(hasError);
+  console.log(apiData.fourthSectionContent);
   return (
     <div>
-      <ECommercePageCoverBox />
-      <ECommercePageBoxForBoxAndText />
-      <ECommerceSecondBoxWithIMGAndBox />
-      <ECommercePageRedkiteWill />
-      <EcommerceCustomerJourney />
-      <EcommerceWhyRedkite />
-      <EcommerceSuccessStories />
-      <EcommerceContactUs />
+      <ECommercePageCoverBox
+        firstSectionHeading={apiData.firstSectionHeading}
+        firstSectionText={apiData.firstSectionText}
+      />
+      <ECommercePageBoxForBoxAndText
+        firstSectionText={apiData.firstSectionText}
+      />
+      <ECommerceSecondBoxWithIMGAndBox
+        firstSectionText={apiData.firstSectionText}
+      />
+      <ECommercePageRedkiteWill redkiteWill={apiData.redkiteWill} />
+
+      <EcommerceCustomerJourney customerJourney={apiData.customerJourney} />
+      <EcommerceWhyRedkite
+        thirdSectionHeading={apiData.thirdSectionHeading}
+        thirdSectionParagraph={apiData.thirdSectionParagraph}
+        thirdSectionButton={apiData.thirdSectionButton}
+      />
+      <EcommerceSuccessStories
+        fourthSectionContent={apiData.fourthSectionContent}
+      />
+      <EcommerceContactUs
+        fifthSectionHeading={apiData.fifthSectionHeading}
+        fifthSectionFields={apiData.fifthSectionFields}
+      />
     </div>
   );
 }
