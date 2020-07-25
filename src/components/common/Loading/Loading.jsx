@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import LoadingIcon from "./loading2x.gif";
+import LoadingIcon from "../../../img/loading2x.gif";
 import styles from "./Loading.module.scss";
 
 const Loading = () => {
