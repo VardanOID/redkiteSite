@@ -2,6 +2,7 @@
 import React from "react";
 import EcommerceCustomerJourneyItemsLeftPart from "./EcommerceCustomerJourneyItemsLeftPart";
 import EcommerceCustomerJourneyItemsRightPart from "./EcommerceCustomerJourneyItemsRightPart";
+import Styles from "./GradientNumbersList.module.scss";
 function EcommerceCustomerJourneyItems({
   number,
   heading,
@@ -9,7 +10,7 @@ function EcommerceCustomerJourneyItems({
   paragraph,
 }) {
   return (
-    <div className="ecommerce-customer-journey-items-box">
+    <div className={Styles["ecommerce-customer-journey-items-box"]}>
       <EcommerceCustomerJourneyItemsLeftPart
         number={number}
         heading={heading}

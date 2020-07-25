@@ -1,12 +1,12 @@
 import React from "react";
-
+import Styles from "./LargIMGWithRightBox.module.scss";
 function EcommerceWhyRedkiteightSubBoxButton({ thirdSectionButton }) {
   return (
-    <div className="ecommerce-why-redkite-right-subbox-button-box">
+    <div className={Styles["ecommerce-why-redkite-right-subbox-button-box"]}>
       <input
         type="button"
         value={thirdSectionButton}
-        className="ecommerce-why-redkite-right-subbox-button"
+        className={Styles["ecommerce-why-redkite-right-subbox-button"]}
       />
     </div>
   );

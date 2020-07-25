@@ -1,0 +1,175 @@
+@import "../../../styles/_const.scss";
+
+//----------------------------------------- GRadient Numbers List
+.ecommerce-customer-journey-box {
+  // margin-top: 100px;
+  background: #efefef;
+}
+.ecommerce-customer-journey-box-title {
+  font-size: $main-fontSize-for-section-title;
+  text-align: center;
+  font-weight: bold;
+  padding: 95px 0 100px 0;
+}
+
+//------------------------------------------Gradient Number List    Buttons
+.ecommerce-customer-journey-button-box {
+  display: grid;
+  grid-template-columns: auto;
+
+  justify-content: center;
+  color: $main-title-and-text-color;
+  padding-bottom: 100px;
+}
+
+.ecommerce-customer-journey-button-content {
+  border: 3px solid #1c1b29;
+  margin-top: 100px;
+  border-radius: 30px;
+  padding: 10px 55px;
+  font-weight: bold;
+  font-size: $main-fontSize-for-text;
+}
+
+//------------------------------------------Gradient Number List     Items
+.ecommerce-customer-journey-items-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  column-gap: 9%;
+  margin: 0 110px 50px;
+  background-color: $main-white-color;
+  box-shadow: $main-box-shadow;
+  border-radius: 110px 0 0 110px;
+}
+
+//------------------------------------------Gradient Number List     Items Box
+
+//------------------------------------------Gradient Number List   Left Part
+
+.ecommerce-customer-journey-items-left-part-box {
+  display: grid;
+  grid-template-columns: 20% auto;
+  border-radius: 101px;
+  width: 650px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: grid;
+  align-items: center;
+}
+.ecommerce-customer-journey-items-left-part-number {
+  font-size: 80px;
+  color: $main-white-color;
+  font-weight: bold;
+}
+.ecommerce-customer-journey-items-left-part-text {
+  font-size: 30px;
+  color: $main-white-color;
+  font-weight: bold;
+  width: 404px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .ecommerce-customer-journey-items-left-part-box {
+    grid-template-columns: 15% auto;
+
+    width: 500px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+//------------------------------------------Gradient Number List   Right Part
+
+.ecommerce-customer-journey-items-right-part-box {
+  width: 100%;
+}
+
+.ecommerce-customer-journey-items-right-part-text {
+  font-size: $main-fontSize-for-text-Ecommerce;
+}
+@media only screen and (max-width: 1500px) {
+  .ecommerce-customer-journey-items-right-part-text {
+    font-size: 20px;
+  }
+}
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .ecommerce-customer-journey-box-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding: 46px 0 56px;
+  }
+  .ecommerce-customer-journey-items-box {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    column-gap: 0px;
+    width: 100%;
+    margin: 0px;
+    background: #efefef;
+    background-color: $main-white-color;
+    box-shadow: 0px 1px 0px -5px rgba(28, 27, 41, 1);
+    border-radius: 0;
+  }
+
+  .ecommerce-customer-journey-items-left-part-box {
+    display: grid;
+    grid-template-columns: 10% auto;
+    border-radius: 0px;
+    width: 100%;
+    column-gap: 5%;
+    padding: 14px 10px 14px 20px;
+    align-items: center;
+    opacity: 0.8;
+  }
+
+  .ecommerce-customer-journey-items-left-part-number {
+    font-size: 38px;
+    color: $main-white-color;
+    font-weight: bold;
+  }
+  .ecommerce-customer-journey-items-left-part-text {
+    font-size: 14px;
+    color: $main-white-color;
+    font-weight: bold;
+    width: 100%;
+  }
+  .ecommerce-customer-journey-items-box {
+    background-color: #efefef;
+  }
+  .ecommerce-customer-journey-items-right-part-box {
+    width: 90%;
+    margin-left: 5%;
+    // border: 1px solid red;
+    box-shadow: $main-box-shadow;
+    // box-shadow: 0px 1px 28px -5px rgba(28, 27, 41, 1);
+    margin-bottom: 20px;
+  }
+
+  .ecommerce-customer-journey-items-right-part-text {
+    font-size: 14px;
+    // box-shadow: $main-box-shadow;
+    padding: 18px 21px 39px 18px;
+  }
+  .ecommerce-customer-journey-button-box {
+    display: grid;
+    grid-template-columns: auto;
+
+    justify-content: center;
+    color: $main-title-and-text-color;
+    margin: 50px 64px 0px 64px;
+  }
+
+  .ecommerce-customer-journey-button-content {
+    border: 3px solid #1c1b29;
+    margin-top: 0px;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}

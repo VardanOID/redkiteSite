@@ -1,0 +1,99 @@
+@import "../../../styles/_const.scss";
+
+//-----------------------------Larg IMG With Right Box
+.ecommerce-why-redkite-box {
+  max-width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-height: 100%;
+}
+
+.ecommerce-why-redkite-img {
+  width: 100vw;
+}
+
+.ecommerce-why-redkite-right-section {
+  display: grid;
+  margin-top: -26%;
+}
+
+//-----------------------------Larg IMG With Right Box      Right Box
+.ecommerce-why-redkite-right-box-box {
+  box-shadow: $main-box-shadow;
+  justify-self: end;
+  background-color: $main-white-color;
+  width: 43%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 2200px) {
+  .ecommerce-why-redkite-right-box-box {
+    height: 110%;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  .ecommerce-why-redkite-right-box-box {
+    height: 120%;
+  }
+}
+
+@media only screen and (max-width: 1806px) {
+  .ecommerce-why-redkite-right-box-box {
+    height: 90%;
+  }
+}
+
+//-----------------------------Larg IMG With Right Box      Right Sub Box
+.ecommerce-why-redkite-right-subbox-box {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+}
+
+//-----------------------------Larg IMG With Right Box      Right Sub Box Buttons
+.ecommerce-why-redkite-right-subbox-button {
+  border-radius: 30px;
+  border: 3px solid $main-title-and-text-color;
+  padding: 12px 55px;
+  background-color: $main-white-color;
+  font-size: $main-fontSize-for-text;
+  font-weight: bold;
+  margin-bottom: 140px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .ecommerce-why-redkite-right-subbox-button {
+    padding: 10px 40px;
+    margin-bottom: 100px;
+    font-size: 18px;
+  }
+}
+
+//-----------------------------Larg IMG With Right Box      Right Sub Box Text
+.ecommerce-why-redkite-right-subbox-title {
+  font-weight: bold;
+  font-size: $main-fontSize-for-section-title;
+
+  color: $main-title-and-text-color;
+  margin-bottom: 46px;
+}
+.ecommerce-why-redkite-right-subbox-text {
+  font-size: $main-fontSize-for-text-Ecommerce;
+  color: $main-title-and-text-color;
+  margin-bottom: 51px;
+}
+
+@media only screen and (max-width: 1650px) {
+  .ecommerce-why-redkite-right-subbox-title {
+    font-size: 40px;
+  }
+  .ecommerce-why-redkite-right-subbox-text {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .ecommerce-why-redkite-right-subbox-text {
+    font-size: 18px;
+  }
+}

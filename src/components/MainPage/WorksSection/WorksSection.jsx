@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Slider from "react-slick";
 import WorkSectionItem from "./WorkSectionItem";
-
+import Styles from "./WorkSection.module.scss";
 function WorksSection({ works }) {
   const settings = {
     dots: false,
@@ -14,8 +14,8 @@ function WorksSection({ works }) {
     arrow: true,
   };
   return (
-    <div className="works-section-box">
-      <div className="works-section-box-title">Our Works</div>
+    <div className={Styles["works-section-box"]}>
+      <div className={Styles["works-section-box-title"]}>Our Works</div>
       <div>
         <Slider {...settings}>
           {!!works &&

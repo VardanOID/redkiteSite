@@ -1,10 +1,11 @@
 import React from "react";
 import ECommercePageRedkiteWillItemsBox from "./ECommercePageRedkiteWillItemsBox";
+import Styles from "./FeaturesList.module.scss";
 function ECommercePageRedkiteWill({ redkiteWill }) {
   return (
     <div>
-      <div className="ecommerce-page-redkite-will-box">
-        <div className="ecommerce-page-redkite-will-box-title">
+      <div className={Styles["ecommerce-page-redkite-will-box"]}>
+        <div className={Styles["ecommerce-page-redkite-will-box-title"]}>
           Redkite Will:
         </div>
         <ECommercePageRedkiteWillItemsBox redkiteWill={redkiteWill} />

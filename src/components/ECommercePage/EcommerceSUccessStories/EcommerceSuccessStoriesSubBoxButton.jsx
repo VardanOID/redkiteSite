@@ -1,12 +1,12 @@
 import React from "react";
-
+import Styles from "./LeftAndRightSections.module.scss";
 function EcommerceSuccessStoriesSubBoxButton() {
   return (
-    <div className="ecommerce-success-stories-sub-box-button-box">
+    <div className={Styles["ecommerce-success-stories-sub-box-button-box"]}>
       <input
         type="button"
         value="Read More"
-        className="ecommerce-success-stories-sub-box-button"
+        className={Styles["ecommerce-success-stories-sub-box-button"]}
       />
     </div>
   );

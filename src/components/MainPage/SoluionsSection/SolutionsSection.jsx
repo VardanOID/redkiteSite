@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SolutionSectionBox from "../SoluionsSection/SolutionsSectionBox";
-import SolutionsSectionAllServices from "../SoluionsSection/SolutionsSectionAllServices";
+import SolutionSectionBox from "./SolutionsSectionBox";
+// import SolutionsSectionAllServices from "./SolutionsSectionAllServices";
 import Esd from "../../../img/Bg_image.png";
 function SolutionsSection({ solutionstext, solutions }) {
   const [bgImage, setbgImage] = useState(Esd);
@@ -23,7 +23,7 @@ function SolutionsSection({ solutionstext, solutions }) {
           />
         </div>
         <SolutionSectionBox onBGChanged={onBGChanged} solutions={solutions} />
-        <SolutionsSectionAllServices />
+        {/* <SolutionsSectionAllServices /> */}
       </div>
     </div>
   );

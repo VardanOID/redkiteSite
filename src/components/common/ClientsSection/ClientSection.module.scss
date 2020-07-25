@@ -1,0 +1,68 @@
+@import "../../../styles/_const.scss";
+
+//-------------------------Clients Section
+.clients-section-clients-items {
+  width: 180px;
+}
+.clients-section-clients-items-box {
+  margin-top: 70px;
+}
+
+//-------------------------Clients Section Clients
+.clients-section-box {
+  margin: 101px 0;
+}
+
+.clients-section-text {
+  font-size: $main-fontSize-for-section-title;
+  font-weight: bold;
+  text-align: center;
+}
+
+.clients-section-clients-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-items: center;
+  justify-content: center;
+  column-gap: 158px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .clients-section-clients-box {
+    column-gap: 108px;
+  }
+}
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .clients-section-clients-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    justify-content: center;
+    column-gap: 0px;
+    width: 90%;
+    // border: 1px solid red;
+    margin-left: 5%;
+  }
+
+  .clients-section-text {
+    // padding-top: 47px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #767575;
+  }
+  .clients-section-clients-items-box {
+    margin-top: 36px;
+  }
+  .clients-section-box {
+    margin: 47px 0;
+  }
+
+  .clients-section-clients-items {
+    width: 70px;
+    padding-left: 5.5px;
+  }
+}

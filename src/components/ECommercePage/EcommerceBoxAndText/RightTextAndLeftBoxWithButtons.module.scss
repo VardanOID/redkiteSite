@@ -1,0 +1,73 @@
+@import "../../../styles/_const.scss";
+
+//...............................................Box For Box And Text
+.ecommerce-page-box-for-box-and-text {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 40% 59%;
+}
+//-----------------------------------------------Box with Buttons
+.ecommerce-page-box-with-buttons-box {
+  margin-top: -40px;
+  background: #f8f8f8;
+  box-shadow: $main-box-shadow;
+}
+
+.ecommerce-page-box-text {
+  padding: 80px;
+  font-size: $main-fontSize-for-section-title;
+  font-weight: bold;
+  line-height: 55px;
+}
+.ecommerce-page-buttons {
+  border: 3px solid #1c1b29;
+  font-size: $main-fontSize-for-text;
+  color: #1c1b29;
+  border-radius: 30px;
+  background: transparent;
+  padding: 10px 60px;
+  outline: none;
+}
+.ecommerce-page-buttons:focus {
+  outline: none;
+}
+
+.ecommerce-page-buttons-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 73px;
+  margin-bottom: 100px;
+  margin-right: 19px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .ecommerce-page-box-text {
+    padding: 60px;
+    font-size: 31px;
+    line-height: 39px;
+  }
+  .ecommerce-page-buttons {
+    border: 3px solid #1c1b29;
+    font-size: 18px;
+    color: #1c1b29;
+    border-radius: 30px;
+    background: transparent;
+    padding: 10px 30px;
+    outline: none;
+  }
+}
+
+//---------------------------------------Right Text
+
+.ecommerce-page-right-text-box {
+  padding: 150px 11%;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .ecommerce-page-right-text-box {
+    padding: 120px 10%;
+    font-size: 20px;
+  }
+}

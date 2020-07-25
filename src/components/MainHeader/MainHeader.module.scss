@@ -1,0 +1,150 @@
+@import "../../styles/_const.scss";
+// --------------------------------- header style on different pages
+.mainHeaderLogoBox {
+  // display: none;
+}
+.homeHeader {
+  background-color: #0f0f0f;
+  box-shadow: 0px 15px 18px -1px rgba(0, 0, 0, 0.75);
+  opacity: 1;
+  transition: 400ms ease;
+  height: 110px;
+  color: $main-white-color;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10%;
+  justify-self: center;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding-top: 10px;
+}
+
+.internalHeader {
+  background-color: white;
+  box-shadow: none;
+  opacity: 0.9;
+  transition: 400ms ease;
+  height: 110px;
+  color: $main-white-color;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10%;
+  justify-self: center;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding-top: 10px;
+}
+
+.transparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+//------------------------Main Header
+
+//--------------------------Main Header Item
+
+.main-header-item {
+  font-size: $main-fontSize-for-text;
+  padding-right: 60px;
+  color: white;
+  a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .main-header-item {
+    font-size: 15px;
+    padding-right: 30px;
+  }
+}
+
+//--------------------------Main Header Itema Box
+
+.main-header-items-box-box {
+  display: flex;
+  align-items: center;
+}
+
+.inactive {
+  // color: #fff;
+  text-decoration: none;
+}
+.inactive:hover {
+  // color: #fff;
+  text-decoration: none;
+}
+.burgerMenu,
+.MobileMenu {
+  display: none;
+}
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .mainHeaderLogo {
+    width: 105px;
+    // border: 1px solid red;
+    padding: 0px;
+  }
+
+  .main-header-items-box-box {
+    display: none;
+    // align-items: center;
+  }
+  .homeHeader {
+    // background-color: #0f0f0f;
+    // box-shadow: 0px 15px 18px -1px rgba(0, 0, 0, 0.75);
+    // opacity: 1;
+    // transition: 400ms ease;
+    height: 70px;
+    // color: $main-white-color;
+    // font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // grid-template-columns: auto auto;
+    column-gap: 5%;
+    // justify-self: center;
+    // text-align: center;
+    position: fixed;
+    // width: 100%;
+    z-index: 2;
+    padding: 0px 20px;
+  }
+
+  .internalHeader {
+    // transition: 400ms ease;
+    height: 70px;
+    opacity: 1;
+    // color: $main-white-color;
+    // font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // grid-template-columns: auto auto;
+    column-gap: 5%;
+    // justify-self: center;
+    // text-align: center;
+    position: fixed;
+    // width: 100%;
+    z-index: 2;
+    padding: 0px 20px;
+  }
+
+  .burgerMenu {
+    display: inline-block;
+    // width: 15%;
+  }
+
+  #menu {
+    color: red;
+  }
+}

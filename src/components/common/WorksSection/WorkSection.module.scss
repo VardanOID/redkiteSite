@@ -1,0 +1,128 @@
+@import "../../../styles/_const.scss";
+
+//---------------------------------Work Section
+
+.works-section-box {
+  padding: 0 100px;
+  background: #1c1b29;
+  padding-bottom: 130px;
+}
+.works-section-box div {
+  outline: none;
+}
+.slick-prev:before {
+  background-image: url(../../../img/IconLeft.svg);
+  color: transparent;
+  padding-right: 30px;
+  padding-top: 30px;
+  margin-left: -100px;
+}
+
+.slick-next:before {
+  background-image: url(../../../img/IconRight.svg);
+  color: transparent;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.work-img {
+  width: 80%;
+  cursor: pointer;
+}
+
+.slick-list {
+  padding-left: 20px;
+}
+
+.works-section-box-title {
+  padding: 100px 0;
+  font-size: $main-fontSize-for-section-title;
+  font-weight: bold;
+  text-align: center;
+  color: $main-white-color;
+}
+
+.work-img-title {
+  font-size: $main-fontSize-for-text;
+  color: $main-white-color;
+  padding-top: 30px;
+  width: 70%;
+}
+
+@media only screen and (max-width: 1500px) {
+  .work-img-title {
+    font-size: 15px;
+    color: $main-white-color;
+    padding-top: 10px;
+    width: 80%;
+  }
+}
+
+.workSectionForMobileShow {
+  display: none;
+}
+.showMoreButtonBox {
+  display: none;
+}
+//---------------------------------Work Section Item
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .works-section-box-title {
+    font-size: 25px;
+    padding: 40px 0 51px 0;
+  }
+  .works-section-box {
+    padding: 10px;
+    background: #1c1b29;
+    padding-bottom: 50px;
+  }
+  .works-section-box div {
+    outline: none;
+  }
+  .work-img {
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .slick-list {
+    // padding-left: 200px;
+  }
+  .work-img-title {
+    font-size: 14px;
+    color: $main-white-color;
+    padding-top: 3px;
+    padding-left: 5px;
+    width: 100%;
+  }
+  .works-section-box-title {
+    padding: 30px 0;
+    font-size: 35px;
+  }
+  .workSectionForMobileHide {
+    display: none;
+  }
+
+  .workSectionForMobileShow {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .showMoreButtonBox {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .showMoreButton {
+    outline: none;
+    color: $main-white-color;
+    padding-bottom: 100px;
+    border: 3px solid $main-white-color;
+    margin-top: 100px;
+    border-radius: 30px;
+    padding: 10px 55px;
+    font-weight: bold;
+    font-size: $main-fontSize-for-text;
+    text-transform: uppercase;
+    background-color: transparent;
+  }
+}

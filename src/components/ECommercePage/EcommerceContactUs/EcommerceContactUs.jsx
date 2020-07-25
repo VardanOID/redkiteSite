@@ -1,7 +1,5 @@
 import React from "react";
-// import attachedattachsvgrepocom from "../../../img/attached-attach-svgrepo-com.svg";
-// import axios from "axios";
-
+import Styles from "./ContactUs.module.scss";
 class EcommerceContactUs extends React.Component {
   constructor() {
     super();
@@ -51,102 +49,110 @@ class EcommerceContactUs extends React.Component {
       }
     }
     return (
-      <div className="ecommerce-contact-us-box">
-        <div className="ecommerce-contact-us-title">
+      <div className={Styles["ecommerce-contact-us-box"]}>
+        <div className={Styles["ecommerce-contact-us-title"]}>
           {this.props.fifthSectionHeading}
         </div>
         <form onSubmit={this.handelSubmit}>
-          <div className="ecommerce-contact-us-form-structure">
+          <div className={Styles["ecommerce-contact-us-form-structure"]}>
             <div>
-              <div className="ecommerce-contact-us-form-structure-name">
+              <div
+                className={Styles["ecommerce-contact-us-form-structure-name"]}
+              >
                 <div>
-                  <formGroup>
-                    <label for="name">First Name</label> <br />
+                  <div>
+                    <label htmlFor="name">First Name</label> <br />
                     <input
                       type="text"
                       name="firstName"
                       onChange={this.handleChange}
-                      className="form-name"
+                      className={Styles["form-name"]}
                     />
-                  </formGroup>
+                  </div>
                 </div>
                 <div>
-                  <formGroup>
-                    <label for="name">Last Name</label> <br />
+                  <div>
+                    <label htmlFor="name">Last Name</label> <br />
                     <input
                       type="text"
                       name="lastName"
                       onChange={this.handleChange}
-                      className="form-name"
+                      className={Styles["form-name"]}
                     />
-                  </formGroup>
+                  </div>
                 </div>
               </div>
 
-              <div className="ecommerce-contact-us-form-contact-and-email">
+              <div
+                className={
+                  Styles["ecommerce-contact-us-form-contact-and-email"]
+                }
+              >
                 <div>
-                  <formGroup>
-                    <label for="name">Contact Number</label> <br />
+                  <div>
+                    <label htmlFor="name">Contact Number</label> <br />
                     <input
                       type="text"
                       name="contactNumber"
                       onChange={this.handleChange}
-                      className="form-number-and-email"
+                      className={Styles["form-number-and-email"]}
                     />
-                  </formGroup>
+                  </div>
                 </div>
                 <div>
-                  <formGroup>
-                    <label for="email">E-mail</label> <br />
+                  <div>
+                    <label htmlFor="email">E-mail</label> <br />
                     <input
                       type="email"
                       name="email"
                       onChange={this.handleChange}
-                      className="form-number-and-email"
+                      className={Styles["form-number-and-email"]}
                     />
-                  </formGroup>
+                  </div>
                 </div>
               </div>
-              <div className="ecommerce-contact-us-form-company-name">
-                <formGroup>
-                  <label for="email">Company Name</label> <br />
+              <div className={Styles["ecommerce-contact-us-form-company-name"]}>
+                <div>
+                  <label htmlFor="email">Company Name</label> <br />
                   <input
                     type="email"
                     name="companyName"
                     onChange={this.handleChange}
-                    className="form-company-name"
+                    className={Styles["form-company-name"]}
                   />
-                </formGroup>
+                </div>
               </div>
-              <div className="ecommerce-contact-us-form-NDA-and-atach">
+              <div
+                className={Styles["ecommerce-contact-us-form-NDA-and-atach"]}
+              >
                 <div>
                   <input type="checkbox" name="checked" />
-                  <label for="check">
-                    {" "}
+                  <label htmlFor="check">
                     Sign a mutual NDA before a conversation.<sup> ⓘ </sup>
                   </label>
                   <br></br>
                 </div>
-                <label className="attached-file">
-                  <div id="hide">
-                    <input type="file" id="file" onChange={a} />
-                  </div>{" "}
-                  <label className="attached-file-text">
+                <label className={Styles["attached-file"]}>
+                  <div id={Styles["hide"]}>
+                    <input type="file" id={Styles["file"]} onChange={a} />
+                  </div>
+                  <label className={Styles["attached-file-text"]}>
                     Attach a file (Max. 2 MB).
                   </label>
                 </label>
               </div>
             </div>
             <div>
-              <div className="ecommerce-contact-us-form-message">
-                <formGroup>
-                  <label for="message">What can we help you with?</label> <br />
+              <div className={Styles["ecommerce-contact-us-form-message"]}>
+                <div>
+                  <label htmlFor="message">What can we help you with?</label>{" "}
+                  <br />
                   <textarea
                     name="message"
                     onChange={this.handleChange}
-                    className="form-message"
+                    className={Styles["form-message"]}
                   ></textarea>
-                </formGroup>
+                </div>
               </div>
             </div>
           </div>
@@ -154,7 +160,7 @@ class EcommerceContactUs extends React.Component {
           {/* <div className="ecommerce-contact-us-form-NDA-and-atach">
             <div>
               <input type="checkbox" name="checked" />
-              <label for="check">
+              <label htmlFor="check">
                 {" "}
                 Sign a mutual NDA before a conversation.<sup> ⓘ </sup>
               </label>
@@ -170,7 +176,9 @@ class EcommerceContactUs extends React.Component {
             </label>
           </div> */}
 
-          <button className="ecommerce-contact-us-form-button">Send</button>
+          <button className={Styles["ecommerce-contact-us-form-button"]}>
+            Send
+          </button>
         </form>
       </div>
     );

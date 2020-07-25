@@ -1,0 +1,13 @@
+.loadingAnimation {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  z-index: 1;
+  opacity: 1;
+  position: absolute;
+}

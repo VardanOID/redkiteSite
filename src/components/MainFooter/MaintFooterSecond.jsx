@@ -1,14 +1,19 @@
 import React from "react";
+import styles from "./MainFooter.module.scss";
 const date = new Date();
 const year = date.getFullYear();
-function MainFooterSecond() {
+function MainFooterSecond({ copyright }) {
   return (
-    <div className="main-footer-second-box">
-      <div className="all-rights-reserved">
-        © {year} Redkite.io. All Rights Reserved.
+    <div className={styles["main-footer-second-box"]}>
+      <div className={styles.privacyAndTermsMobileBox}>
+        <div className={styles.privacyAndTermsMobile}>Privacy Policy</div>
+        <div className={styles.privacyAndTermsMobile}>Terms Of Use</div>
       </div>
-      <div className="policy">Privacy Policy</div>
-      <div className="terms">Terms Of Use</div>
+      <div className={styles.data}>
+        © 2010 - {year} {copyright}
+      </div>
+      <div className={styles.privacyAndTerms}>Privacy Policy</div>
+      <div className={styles.privacyAndTerms}>Terms Of Use</div>
     </div>
   );
 }

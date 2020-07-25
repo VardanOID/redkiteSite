@@ -1,0 +1,93 @@
+@import "../../../styles/_const.scss";
+
+//----------------------------Features List
+.ecommerce-page-redkite-will-box {
+  box-shadow: $main-box-shadow;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -150px;
+  color: $main-title-and-text-color;
+  max-width: 100%;
+  padding: 0 20px;
+  position: relative;
+  background-color: $main-white-color;
+}
+
+.ecommerce-page-redkite-will-box-title {
+  text-align: center;
+  font-size: $main-fontSize-for-section-title;
+  font-weight: bold;
+  padding-top: 5%;
+  z-index: 11;
+}
+@media only screen and (max-width: 1500px) {
+  .ecommerce-page-redkite-will-box {
+    margin-top: -100px;
+  }
+}
+
+//----------------------------Features List        Box
+.ecommerce-page-redkite-will-items-box {
+  display: flex;
+  width: 100%;
+  padding-bottom: 50px;
+}
+//----------------------------Features List        Box  Items
+.ecommerce-page-redkite-will-items-img {
+  padding-bottom: 10%;
+  padding-top: 20%;
+}
+
+.ecommerce-page-redkite-will-items-text {
+  text-align: center;
+  font-size: 30px;
+  padding: 0 5%;
+}
+
+@media only screen and (max-width: 1500px) {
+  .ecommerce-page-redkite-will-items-text {
+    font-size: 20px;
+  }
+}
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .ecommerce-page-redkite-will-box {
+    box-shadow: $main-box-shadow;
+    margin: 20px 0px 0px 0px;
+    color: $main-title-and-text-color;
+    max-width: 100%;
+    padding: 0 20px 16px 20px;
+    position: relative;
+    background-color: $main-white-color;
+  }
+  .ecommerce-page-redkite-will-box-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 46px 0 49px 0;
+    z-index: 1;
+  }
+
+  .ecommerce-page-redkite-will-items-box {
+    display: grid;
+    // grid-template-columns: auto auto;
+    width: 100%;
+    padding-bottom: 34px;
+  }
+  .ecommerce-page-redkite-will-items-text {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    font-size: 14px;
+    text-align: left;
+  }
+  .ecommerce-page-redkite-will-items-img {
+    padding-bottom: 0%;
+    padding-top: 0%;
+    width: 75%;
+  }
+}

@@ -1,43 +1,53 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+import { ErrorBoundary as ErrBoundary } from "react-error-boundary";
 import MainHeader from "./components/MainHeader/MainHeader";
-// import FirstSection from "./components/MainPage/FirstSection/FirstSection";
-// import ClientsSection from "./components/MainPage/ClientsSection/ClientsSection";
-// import SolutionsSection from "./components/MainPage/SoluionsSection/SolutionsSection";
-// import TestimonialsSection from "./components/MainPage/TestimonialsSection/TestimonialsSection";
-// import WorksSection from "./components/MainPage/WorksSection/WorksSection";
-// import AboutSection from "./components/MainPage/AboutSection/AboutSection";
-// import GetInTouchSection from "./components/MainPage/GetInTouchSection/GetInTouchSection";
+import ErrorWraaper from "./components/common/ErrorWraaper";
 import MainPage from "./components/MainPage/MainPage";
 import ECommercePage from "./components/ECommercePage/ECommercePage";
+import InternalPageLayout from "./components/InternalPageLayout/InternalPageLayout";
 import MainFooter from "./components/MainFooter/MainFooter";
-import { useLocation } from "react-router-dom";
-// import "./App.scss";
+import NotFound from "./components/common/NotFound";
+const defErrMsg = "is not responding. Please try refreshing the page";
+const menuErrMsg = `Menu ${defErrMsg}`;
+const footErrMsg = `Footer ${defErrMsg}`;
 
 function App() {
-  let style = {
-   
-overflowX: useLocation().pathname !== "/"  ? "hidden" : "auto",
-  };
   return (
-    <div className="App" 
-    style={style}>
-      <MainHeader />
-      <Switch>
-      {/* <FirstSection />
-      <ClientsSection />
-      <SolutionsSection />
-      <TestimonialsSection />
-      <WorksSection />
-      <AboutSection />
-      <GetInTouchSection /> */}
-      <Route exact path="/" component={MainPage} />
-     <Route exact path="/ecommerce" component={ECommercePage} />
-      {/* <ECommercePage /> */}
-      </Switch>
-      <MainFooter />
+    <div className="App">
+      <Provider store={store}>
+        <ErrBoundary
+          fallbackRender={() => <ErrorWraaper message={menuErrMsg} />}
+        >
+          <MainHeader />
+          {/* <MobileMenu ref={textRef} /> */}
+        </ErrBoundary>
+        <Switch>
+          <ErrBoundary fallbackRender={() => <ErrorWraaper type="main" />}>
+            <Route exact path="/" component={MainPage} />
+            <Route exact path="/404" component={NotFound} />
+            <Route exact path="/ecommerce" component={ECommercePage} />
+            <Route
+              exact
+              path="/:pageName"
+              component={(props) => (
+                <InternalPageLayout
+                  {...props}
+                  pageName={props.match.params.pageName}
+                />
+              )}
+            />
+          </ErrBoundary>
+        </Switch>
+        <ErrBoundary
+          fallbackRender={() => <ErrorWraaper message={footErrMsg} />}
+        >
+          <MainFooter />
+        </ErrBoundary>
+      </Provider>
     </div>
   );
 }
-
 export default App;

@@ -1,16 +1,12 @@
 import React from "react";
-// import Vision from "../../img/OurVision.svg";
+import Styles from "./AboutSection.module.scss";
 
 function AboutSectionFirstRowItems({ image, imgAlt, text, picStyle }) {
   return (
-    <div className="about-section-first-row-items-box">
-      <img
-        src={image}
-        alt={imgAlt}
-        className={`about-section-pics ${picStyle}`}
-      />
+    <div className={Styles["about-section-first-row-items-box"]}>
+      <img src={image} alt={imgAlt} className={Styles["about-section-pics"]} />
       <div
-        className="about-section-first-row-items-text"
+        className={Styles["about-section-first-row-items-text"]}
         dangerouslySetInnerHTML={{ __html: text }}
       />
     </div>

@@ -1,12 +1,12 @@
 import React from "react";
-
+import Styles from "./LargIMGWithRightBox.module.scss";
 function EcommerceWhyRedkiteightSubBoxText(props) {
   return (
-    <div className="ecommerce-why-redkite-right-subbox-text-box">
-      <div className="ecommerce-why-redkite-right-subbox-title">
+    <div className={Styles["ecommerce-why-redkite-right-subbox-text-box"]}>
+      <div className={Styles["ecommerce-why-redkite-right-subbox-title"]}>
         {props.title}
       </div>
-      <div className="ecommerce-why-redkite-right-subbox-text">
+      <div className={Styles["ecommerce-why-redkite-right-subbox-text"]}>
         {props.text}
       </div>
     </div>

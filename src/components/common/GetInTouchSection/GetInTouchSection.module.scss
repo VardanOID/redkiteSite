@@ -1,0 +1,156 @@
+@import "../../../styles/_const.scss";
+
+//-----------------------Get In Touch Section
+.get-in-touch-section-box {
+  padding-top: 100px;
+}
+.get-in-touch-section-title {
+  padding-bottom: 100px;
+  color: #1c1b29;
+  text-align: center;
+  font-size: $main-fontSize-for-section-title;
+  font-weight: bold;
+}
+
+//-----------------------Get In Touch Section Box
+
+.get-in-touch-section-box-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: $main-white-color;
+}
+
+//-----------------------Get In Touch Section Box Items
+
+.get-in-touch-section-box-items-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.get-in-touch-section-box-items-text {
+  font-size: $main-fontSize-for-text;
+  text-align: center;
+  padding: 0 10% 30px 10%;
+}
+.get-in-touch-section-box-items-info {
+  font-size: $main-fontSize-for-text;
+  text-align: center;
+  padding: 0 10%;
+}
+.get-in-touch-section-box-items-button-box {
+  display: grid;
+  padding: 70px 0 50px 0;
+}
+.get-in-touch-section-box-items-button {
+  border: 3px solid $main-white-color;
+  border-radius: 30px;
+  background: transparent;
+  color: $main-white-color;
+  padding: 10px 40px;
+  justify-self: center;
+  font-weight: bold;
+}
+.get-in-touch-section-box-items-icon {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.get-in-touch-section-box-items-info1 {
+  color: transparent;
+}
+
+.getintouchBG:nth-child(1) {
+  background-image: linear-gradient(
+    270deg,
+    rgba(198, 145, 0, 1) 0%,
+    rgba(198, 145, 0, 1) 0%,
+    rgba(203, 0, 172, 1) 100%
+  );
+  opacity: 0.8;
+  outline: none;
+}
+
+.getintouchBG:nth-child(2) {
+  background-image: linear-gradient(
+    270deg,
+    rgba(204, 48, 180, 1) 0%,
+    rgba(204, 48, 180, 1) 0%,
+    rgba(43, 15, 134, 1) 100%
+  );
+  opacity: 0.8;
+  outline: none;
+}
+
+.getintouchBG:nth-child(3) {
+  background-image: linear-gradient(
+    270deg,
+    rgba(0, 198, 198, 1) 0%,
+    rgba(0, 198, 198, 1) 0%,
+    rgba(62, 53, 170, 1) 100%
+  );
+  opacity: 0.8;
+  outline: none;
+}
+
+@media only screen and (max-width: 1500px) {
+  .get-in-touch-section-box-items-info {
+    font-size: 15px;
+  }
+}
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .get-in-touch-section-box-box {
+    display: grid;
+    grid-template-columns: auto;
+    color: $main-white-color;
+  }
+  .get-in-touch-section-box {
+    padding-top: 46px;
+  }
+  .get-in-touch-section-title {
+    padding-bottom: 51px;
+    color: #1c1b29;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .get-in-touch-section-box-items-icon {
+    width: 30px;
+    padding-top: 35px;
+  }
+  .get-in-touch-section-box-items-title {
+    padding-bottom: 19px;
+  }
+  .get-in-touch-section-box-items-text {
+    font-size: 14px;
+    width: 100%;
+    padding: 0 43px;
+  }
+  .get-in-touch-section-box-items-info {
+    padding: 0px;
+  }
+  .get-in-touch-section-box-items-button-box {
+    display: grid;
+    padding: 35px 0;
+  }
+  .get-in-touch-section-box-items-button {
+    border: 3px solid $main-white-color;
+    border-radius: 30px;
+    background: transparent;
+    color: $main-white-color;
+    padding: 10px 40px;
+    justify-self: center;
+    font-weight: bold;
+  }
+  .get-in-touch-section-box-items-icon {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+}

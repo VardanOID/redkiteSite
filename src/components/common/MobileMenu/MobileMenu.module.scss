@@ -1,0 +1,125 @@
+.MobileMenu {
+  display: none;
+}
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .MobileMenuBox {
+    // position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .MobileMenu {
+    // width: 100%;
+    // display: block;
+    // position: absolute;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    // border: 5px solid red;
+    // z-index: 2;
+    display: none;
+    // color: yellow;
+
+    // background-image: linear-gradient(
+    //   180deg,
+    //   rgba(0, 0, 0, 1) 10%,
+    //   rgba(56, 10, 70, 1) 100%
+    // );
+  }
+
+  .menuWrapperClass {
+    // display: grid;
+    // border: 5px solid red;
+    display: block;
+    // width: 120vw;
+    // margin-left: -38%;
+    // padding-top: 170%;
+    // height: 200vh;
+    top: 0;
+    z-index: 2;
+    // background-image: linear-gradient(
+    //   180deg,
+    //   rgba(0, 0, 0, 1) 10%,
+    //   rgba(56, 10, 70, 1) 100%
+    // );
+  }
+  .burgerMenu {
+    position: absolute;
+    top: 0;
+  }
+  .closeIcon {
+    // position: abs
+    top: 0;
+    position: relative;
+    padding-top: 21%;
+    margin-left: 70%;
+  }
+  .main-header-items-box-box {
+    display: grid;
+    justify-content: start;
+    margin-left: 20%;
+    padding-top: 20%;
+    position: absolute;
+  }
+  .main-header-item {
+    padding-bottom: 17px;
+    font-size: 25px;
+  }
+  .main-header-item {
+    padding-right: 60px;
+  }
+  .inactive {
+    // color: #fff;
+    text-decoration: none;
+  }
+  .inactive:hover {
+    // color: #fff;
+    text-decoration: none;
+  }
+  //.....................................Mobile Menu footer
+  .MobileMenuFooterBox {
+    position: absolute;
+    // height: 100px;
+    // margin-top: 84vh;
+    bottom: 0;
+    // margin-top: 100%;
+    width: 100%;
+    // border: 2px solid red;
+    background: #0f0f0f;
+    opacity: 0.8;
+    // margin-top: -27%;
+    // margin-top: 65vh;
+  }
+  .MobileMenuFooterSubBox {
+  }
+  .MobileMenuFooterTitle {
+    // left: 0;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .MobileMenuFooterSocial {
+    padding-left: 10px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 20% 20% auto;
+    padding-top: 54px;
+    justify-items: start;
+    padding-bottom: 20px;
+  }
+  .MobileMenuFooterSocialLogo {
+    justify-self: end;
+  }
+}
+
+// @media only screen and (max-width: 330px) and (min-width: 300px) {
+//   .menuWrapperClass {
+//     margin-left: -38%;
+//     margin-top: 235%;
+//   }
+// }

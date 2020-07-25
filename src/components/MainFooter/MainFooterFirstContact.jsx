@@ -1,16 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import LogoWhite from "../../img/LogoWhite.svg";
-import Facebook from "../../img/Facebook.svg";
-import Instagram from "../../img/Instagram.svg";
-function MainFooterFirstContact() {
+import styles from "./MainFooter.module.scss";
+import MainFooterSocialIcons from "./MainFooterSocialIcons";
+function MainFooterFirstContact({ socialMedia }) {
   return (
-    <div className="main-footer-first-contact-box">
- <div className="main-footer-first-text">Connect with Us:</div>
- <div className="contact-box">
-   <img src={Facebook} alt="Fb" className="contact-fb"/>
-   <img src={Instagram} alt="instagram" className="contact-insta" />
-   <img src={LogoWhite} alt="logo" className="contact-redkite-white"/>
- </div>
+    <div>
+      <div className={styles["main-footer-first-text-connect"]}>
+        Connect with Us:
+      </div>
+      <div className={styles["contact-box"]}>
+        {!!socialMedia &&
+          socialMedia.map((data) => {
+            return <MainFooterSocialIcons key={data.image} {...data} />;
+          })}
+        <Link to="/">
+          <img
+            src={LogoWhite}
+            alt="RedKite Website Logo"
+            className={styles["main-footer-redkite-logo-img"]}
+          />
+        </Link>
+      </div>
     </div>
   );
 }

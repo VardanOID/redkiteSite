@@ -53,9 +53,6 @@
 }
 
 .parent {
-  // margin: 20px;
-  // height: 300px;
-  border: 1px solid blue;
   overflow: hidden;
 }
 .child {
@@ -77,9 +74,30 @@
   -o-transform: scale(1.2);
   transform: scale(1.2);
 }
-// @media screen and (max-width: 960px) {
-//   .parent {
-//     width: 100%;
-//     margin: 20px 0px;
-//   }
-// }
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .solutions-section-box {
+    background-image: url(../../img/Bg_image.png);
+    padding: 46px 0;
+    // background-position: center;
+    background-size: cover;
+    // width: 100%;
+    // height: 100%;
+  }
+  .solutions-section-title {
+    font-size: 25px;
+    color: $main-white-color;
+    text-align: center;
+  }
+  .solutions-section-subtitle {
+    width: 95%;
+    font-size: 14px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    margin-top: 19px;
+    color: $main-white-color;
+    text-align: center;
+  }
+}

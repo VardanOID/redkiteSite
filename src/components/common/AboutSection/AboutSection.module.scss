@@ -1,0 +1,222 @@
+@import "../../../styles/_const.scss";
+
+//--------------------------About Section
+
+.about-section-box {
+  padding: 100px 0 170px 0;
+  background-color: #efefef;
+}
+
+.about-section-title {
+  color: #1c1b29;
+  text-align: center;
+  font-size: $main-fontSize-for-section-title;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1500px) {
+  .about-section-box {
+    padding: 100px 0 100px 0;
+    background-color: #efefef;
+  }
+}
+
+//--------------------About Section Box
+
+.about-section-box-box {
+  padding-top: 100px;
+}
+
+//-------------------------About Section First Row
+.about-section-first-row-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 240px;
+  justify-self: center;
+  align-items: end;
+}
+
+@media only screen and (max-width: 1600px) {
+  .about-section-first-row-box {
+    column-gap: 50px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .about-section-first-row-box {
+    column-gap: 5px;
+  }
+}
+
+//-------------------------About Section First Row Items
+
+.about-section-first-row-items-box {
+  width: 90%;
+}
+
+.about-section-first-row-items-text {
+  border-top: 1px solid $main-grey-color;
+  width: 670px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #767575;
+  padding-top: 30px;
+}
+.about-section-pics {
+  margin-bottom: 30px;
+}
+
+//----------------------- About Section Box Second Row
+
+.about-section-box-second-row-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  column-gap: 110px;
+  padding-top: 70px;
+
+  justify-self: center;
+}
+
+@media only screen and (max-width: 1500px) {
+  .about-section-box-second-row-box {
+    column-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .about-section-box-second-row-box {
+    column-gap: 60px;
+  }
+}
+
+//----------------------- About Section Box Second Row Items
+.about-section-box-second-row-item-box {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  justify-self: center;
+}
+.about-section-text-row-items-title {
+  font-size: 30px;
+  color: $main-grey-color;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 25.5px;
+}
+.about-section-text-row-items-text {
+  border-top: 1px solid $main-grey-color;
+  width: 320px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: $main-grey-color;
+  padding-top: 25.5px;
+}
+.about-section-second-row-pics {
+  margin-left: 50%;
+  transform: translate(-50%, 0px);
+  padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .about-section-text-row-items-text {
+    border-top: 1px solid $main-grey-color;
+    width: 280px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: $main-grey-color;
+    padding-top: 25.5px;
+  }
+}
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .about-section-title {
+    font-size: 25px;
+    padding-bottom: 0px;
+  }
+  .about-section-box {
+    padding: 50px 0 60px 0;
+    background-color: #efefef;
+  }
+  .about-section-box-box {
+    padding-top: 50px;
+  }
+
+  .about-section-first-row-box {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .about-section-first-row-items-box {
+    width: 100%;
+  }
+  .about-section-first-row-items-text-box {
+    width: 100%;
+  }
+  .about-section-first-row-items-text {
+    border-top: 1px solid $main-grey-color;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #767575;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .about-section-pics {
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+
+  .about-section-first-row-items-box-box {
+    max-width: 100%;
+  }
+  .about-section-box-second-row-box {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    column-gap: 110px;
+    padding-top: 20px;
+
+    justify-self: center;
+  }
+
+  .about-section-second-row-items-box {
+    display: grid;
+    grid-template-columns: 25% auto;
+
+    align-items: center;
+    padding-top: 10px;
+  }
+  .about-section-text-row-items-title-and-paragraph-box {
+    border-left: 1px solid $main-grey-color;
+  }
+
+  .about-section-text-row-items-text {
+    border-top: none;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 0px;
+    color: $main-grey-color;
+    padding-top: 0px;
+    font-size: 15px;
+
+    padding-left: 10px;
+  }
+  .about-section-text-row-items-title {
+    font-size: 16px;
+    color: $main-grey-color;
+    font-weight: bold;
+    text-align: left;
+    // padding-left: 10px;
+    padding: 0px 5px 0 10px;
+  }
+
+  .about-section-second-row-pics {
+    width: 100%;
+    padding: 10px;
+  }
+}

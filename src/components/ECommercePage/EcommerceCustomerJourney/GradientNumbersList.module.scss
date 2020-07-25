@@ -1,0 +1,122 @@
+@import "../../../styles/_const.scss";
+
+//----------------------------------------- GRadient Numbers List
+.ecommerce-customer-journey-box {
+  margin-top: 100px;
+  background: #efefef;
+}
+.ecommerce-customer-journey-box-title {
+  font-size: $main-fontSize-for-section-title;
+  text-align: center;
+  font-weight: bold;
+  padding: 95px 0 100px 0;
+}
+
+//------------------------------------------Gradient Number List    Buttons
+.ecommerce-customer-journey-button-box {
+  display: grid;
+  grid-template-columns: auto;
+
+  justify-content: center;
+  color: $main-title-and-text-color;
+  padding-bottom: 100px;
+}
+
+.ecommerce-customer-journey-button-content {
+  border: 3px solid #1c1b29;
+  margin-top: 100px;
+  border-radius: 30px;
+  padding: 10px 55px;
+  font-weight: bold;
+  font-size: $main-fontSize-for-text;
+}
+
+//------------------------------------------Gradient Number List     Items
+.ecommerce-customer-journey-items-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  column-gap: 9%;
+  margin: 0 110px 50px;
+  background-color: $main-white-color;
+  box-shadow: $main-box-shadow;
+  border-radius: 110px 0 0 110px;
+}
+
+//------------------------------------------Gradient Number List     Items Box
+
+.bg1 {
+  background-image: linear-gradient(
+    180deg,
+    rgba(198, 145, 0, 1) 0%,
+    rgba(198, 145, 0, 1) 0%,
+    rgba(203, 0, 172, 1) 100%
+  );
+}
+
+.bg2 {
+  background-image: linear-gradient(
+    180deg,
+    rgba(204, 48, 180, 1) 0%,
+    rgba(204, 48, 180, 1) 0%,
+    rgba(43, 15, 134, 1) 100%
+  );
+}
+
+.bg3 {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 198, 198, 1) 0%,
+    rgba(0, 198, 198, 1) 0%,
+    rgba(62, 53, 170, 1) 100%
+  );
+}
+
+//------------------------------------------Gradient Number List   Left Part
+
+.ecommerce-customer-journey-items-left-part-box {
+  display: grid;
+  grid-template-columns: 20% auto;
+  border-radius: 101px;
+  width: 650px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: grid;
+  align-items: center;
+}
+.ecommerce-customer-journey-items-left-part-number {
+  font-size: 80px;
+  color: $main-white-color;
+  font-weight: bold;
+}
+.ecommerce-customer-journey-items-left-part-text {
+  font-size: 30px;
+  color: $main-white-color;
+  font-weight: bold;
+  width: 404px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .ecommerce-customer-journey-items-left-part-box {
+    grid-template-columns: 15% auto;
+
+    width: 500px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+//------------------------------------------Gradient Number List   Right Part
+
+.ecommerce-customer-journey-items-right-part-box {
+  width: 100%;
+}
+
+.ecommerce-customer-journey-items-right-part-text {
+  font-size: $main-fontSize-for-text-Ecommerce;
+}
+@media only screen and (max-width: 1500px) {
+  .ecommerce-customer-journey-items-right-part-text {
+    font-size: 20px;
+  }
+}

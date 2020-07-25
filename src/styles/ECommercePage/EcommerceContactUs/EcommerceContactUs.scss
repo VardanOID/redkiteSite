@@ -1,133 +1,133 @@
-.ecommerce-contact-us-box {
-  margin: 94px 114px 100px;
-}
-.ecommerce-contact-us-title {
-  color: $main-title-and-text-color;
-  font-size: $main-fontSize-for-section-title;
-  font-weight: bold;
-  width: 1100px;
-  margin-bottom: 57px;
-}
+// .ecommerce-contact-us-box {
+//   margin: 94px 114px 100px;
+// }
+// .ecommerce-contact-us-title {
+//   color: $main-title-and-text-color;
+//   font-size: $main-fontSize-for-section-title;
+//   font-weight: bold;
+//   width: 1100px;
+//   margin-bottom: 57px;
+// }
 
-.ecommerce-contact-us-form-structure {
-  display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 16px;
-}
+// .ecommerce-contact-us-form-structure {
+//   display: grid;
+//   grid-template-columns: auto auto;
+//   column-gap: 16px;
+// }
 
-.ecommerce-contact-us-form-structure-name,
-.ecommerce-contact-us-form-contact-and-email {
-  display: grid;
-  grid-template-columns: auto auto;
-  max-width: 100%;
-  column-gap: 16px;
-}
+// .ecommerce-contact-us-form-structure-name,
+// .ecommerce-contact-us-form-contact-and-email {
+//   display: grid;
+//   grid-template-columns: auto auto;
+//   max-width: 100%;
+//   column-gap: 16px;
+// }
 
-.ecommerce-contact-us-form-company-name {
-  display: grid;
-  grid-template-columns: auto;
-  column-gap: 16px;
-}
-.ecommerce-contact-us-form-message {
-  display: grid;
-  grid-template-columns: auto;
-  max-width: 100%;
-  height: 100%;
-}
-.ecommerce-contact-us-form-NDA-and-atach {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-.form-name,
-.form-number-and-email,
-.form-company-name {
-  width: 100%;
-  height: 60px;
-  border: 1px solid $main-title-and-text-color;
-  outline: none;
-}
+// .ecommerce-contact-us-form-company-name {
+//   display: grid;
+//   grid-template-columns: auto;
+//   column-gap: 16px;
+// }
+// .ecommerce-contact-us-form-message {
+//   display: grid;
+//   grid-template-columns: auto;
+//   max-width: 100%;
+//   height: 100%;
+// }
+// .ecommerce-contact-us-form-NDA-and-atach {
+//   display: grid;
+//   grid-template-columns: auto auto;
+// }
+// .form-name,
+// .form-number-and-email,
+// .form-company-name {
+//   width: 100%;
+//   height: 60px;
+//   border: 1px solid $main-title-and-text-color;
+//   outline: none;
+// }
 
-.form-message {
-  width: 100%;
-  height: 295px;
-  resize: none;
+// .form-message {
+//   width: 100%;
+//   height: 295px;
+//   resize: none;
 
-  border: 1px solid $main-title-and-text-color;
-  outline: none;
-}
-.ecommerce-contact-us-box label {
-  font-size: $main-fontSize-for-text;
-  margin-bottom: 0px;
-}
+//   border: 1px solid $main-title-and-text-color;
+//   outline: none;
+// }
+// .ecommerce-contact-us-box label {
+//   font-size: $main-fontSize-for-text;
+//   margin-bottom: 0px;
+// }
 
-.ecommerce-contact-us-form-structure-name,
-.ecommerce-contact-us-form-contact-and-email {
-  margin-bottom: 27px;
-}
-.ecommerce-contact-us-form-NDA-and-atach label {
-  padding-left: 20px;
-  color: $main-title-and-text-color;
-}
-.ecommerce-contact-us-form-NDA-and-atach label sup {
-  font-size: 12px;
-  color: #808080;
-}
-input[type="checkbox"] {
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(2); /* IE */
-  -moz-transform: scale(2); /* FF */
-  -webkit-transform: scale(2); /* Safari and Chrome */
-  -o-transform: scale(2); /* Opera */
-  transform: scale(3.5);
-  //   padding: 30px;
-}
-.ecommerce-contact-us-form-NDA-and-atach {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 15px;
-}
+// .ecommerce-contact-us-form-structure-name,
+// .ecommerce-contact-us-form-contact-and-email {
+//   margin-bottom: 27px;
+// }
+// .ecommerce-contact-us-form-NDA-and-atach label {
+//   padding-left: 20px;
+//   color: $main-title-and-text-color;
+// }
+// .ecommerce-contact-us-form-NDA-and-atach label sup {
+//   font-size: 12px;
+//   color: #808080;
+// }
+// input[type="checkbox"] {
+//   /* Double-sized Checkboxes */
+//   -ms-transform: scale(2); /* IE */
+//   -moz-transform: scale(2); /* FF */
+//   -webkit-transform: scale(2); /* Safari and Chrome */
+//   -o-transform: scale(2); /* Opera */
+//   transform: scale(3.5);
+//   //   padding: 30px;
+// }
+// .ecommerce-contact-us-form-NDA-and-atach {
+//   margin-top: 20px;
+//   margin-bottom: 20px;
+//   margin-left: 15px;
+// }
 
-#hide input[type="file"] {
-  display: none;
-  margin: 10px;
-}
+// #hide input[type="file"] {
+//   display: none;
+//   margin: 10px;
+// }
 
-.attached-file {
-  // border:1px solid red;
-  background-image: url("../../../img/attached-attach-svgrepo-com.svg");
-  width: 39px;
-  height: 43px;
-  cursor: pointer;
-}
-.attached-file-text {
-  width: 250px;
-  color: $main-title-and-text-color;
-  font-size: $main-fontSize-for-text;
-  padding-top: 5px;
-  margin-left: 25px;
-}
-.ecommerce-contact-us-form-button {
-  color: $main-title-and-text-color;
-  border: 3px solid $main-title-and-text-color;
-  font-size: $main-fontSize-for-text;
-  border-radius: 30px;
-  background: white;
-  font-weight: bold;
-  padding: 9px 55px;
-  margin-top: 50px;
-  outline: none !important; 
-}
-@media only screen and (max-width: 1500px) {
-  .ecommerce-contact-us-box {
-    margin: 94px 70px 100px;
-  }
-}
+// .attached-file {
+//   // border:1px solid red;
+//   background-image: url("../../../img/attached-attach-svgrepo-com.svg");
+//   width: 39px;
+//   height: 43px;
+//   cursor: pointer;
+// }
+// .attached-file-text {
+//   width: 250px;
+//   color: $main-title-and-text-color;
+//   font-size: $main-fontSize-for-text;
+//   padding-top: 5px;
+//   margin-left: 25px;
+// }
+// .ecommerce-contact-us-form-button {
+//   color: $main-title-and-text-color;
+//   border: 3px solid $main-title-and-text-color;
+//   font-size: $main-fontSize-for-text;
+//   border-radius: 30px;
+//   background: white;
+//   font-weight: bold;
+//   padding: 9px 55px;
+//   margin-top: 50px;
+//   outline: none !important;
+// }
+// @media only screen and (max-width: 1500px) {
+//   .ecommerce-contact-us-box {
+//     margin: 94px 70px 100px;
+//   }
+// }
 
-@media only screen and (max-width: 1300px) {
-  .ecommerce-contact-us-box {
-    margin: 94px 30px 100px;
-  }
-  .attached-file-text {
-    font-size: 18px;
-  }
-}
+// @media only screen and (max-width: 1300px) {
+//   .ecommerce-contact-us-box {
+//     margin: 94px 30px 100px;
+//   }
+//   .attached-file-text {
+//     font-size: 18px;
+//   }
+// }

@@ -1,0 +1,60 @@
+@import "../../../styles/_const.scss";
+
+//---------------------------------Work Section
+
+.works-section-box {
+  padding: 0 100px;
+  background: #1c1b29;
+  padding-bottom: 130px;
+}
+.works-section-box div {
+  outline: none;
+}
+.slick-prev:before {
+  background-image: url(../../../img/IconLeft.svg);
+  color: transparent;
+  padding-right: 30px;
+  padding-top: 30px;
+  margin-left: -100px;
+}
+
+.slick-next:before {
+  background-image: url(../../../img/IconRight.svg);
+  color: transparent;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.work-img {
+  width: 80%;
+  cursor: pointer;
+}
+
+.slick-list {
+  padding-left: 20px;
+}
+
+.works-section-box-title {
+  padding: 100px 0;
+  font-size: $main-fontSize-for-section-title;
+  font-weight: bold;
+  text-align: center;
+  color: $main-white-color;
+}
+
+.work-img-title {
+  font-size: $main-fontSize-for-text;
+  color: $main-white-color;
+  padding-top: 30px;
+  width: 70%;
+}
+
+@media only screen and (max-width: 1500px) {
+  .work-img-title {
+    font-size: 15px;
+    color: $main-white-color;
+    padding-top: 10px;
+    width: 80%;
+  }
+}
+
+//---------------------------------Work Section Item

@@ -1,0 +1,82 @@
+@import "../../../styles/_const.scss";
+
+//--------------------------------Cover Box
+.ecommerce-page-cover-box {
+  width: 100%;
+  margin-top: 110px;
+}
+//--------------------------------Cover Box Text
+.ecommerce-page-cover-box-text-box {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: start;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+  color: $main-white-color;
+  width: 881px;
+}
+.ecommerce-page-cover-box-text-title {
+  font-size: 80px;
+  font-weight: bold;
+}
+.ecommerce-page-cover-box-text-subtitle {
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .ecommerce-page-cover-box-text-box {
+    width: 671px;
+    margin-top: 5%;
+  }
+  .ecommerce-page-cover-box-text-title {
+    font-size: 60px;
+  }
+  .ecommerce-page-cover-box-text-subtitle {
+    font-size: 25px;
+  }
+}
+
+//------------------------------------------------------------------------------------------MOBILE VERSION
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .ecommerce-page-cover-box-text-box {
+    display: block;
+    grid-template-columns: auto;
+    align-items: start;
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    color: $main-white-color;
+    width: 100%;
+    height: 1000px;
+    // color: black;
+    // border: 1px solid red;
+  }
+
+  // .coverBox {
+  //   position: relative;
+  // }
+  .coverBoxForText {
+    // padding-left: 22px;
+    // padding-right: 22px;
+  }
+  .ecommerce-page-cover-box {
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+  }
+  .ecommerce-page-cover-box-text-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .ecommerce-page-cover-box-text-subtitle {
+    font-size: 14px;
+    text-align: center;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}

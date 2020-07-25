@@ -1,42 +1,75 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MainHeaderLogo from "./MainHeaderLogo";
 import MainHeaderItemsBox from "./MainHeaderItemsBox";
 import { useLocation } from "react-router-dom";
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
-import "../../styles/_index.scss";
+// import "../../styles/_index.scss";
+import Icon_Menu_white from "../../img/IconMenu.svg";
+import Icon_Menu_Black from "../../img/Icon_Menu_Black.svg";
+import styles from "./MainHeader.module.scss";
+import MobileMenu from "../common/MobileMenu";
+const scrollBreakPoint = 10;
+const headerBgClass = "transparent";
 
 function MainHeader() {
-  const [change, setChange] = useState(false);
-  const changePosition = 10;
+  const [apiData, setApiData] = useState({});
 
+  async function fetchData() {
+    const res = await fetch("http://api.redkite.io/menu.json");
+    res.json().then((res) => setApiData(res));
+  }
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const { pathname } = useLocation();
+  const headerClass = pathname === "/" ? "homeHeader" : "internalHeader";
+  const [bgClass, setBgClass] = useState(headerBgClass);
+  const [mobileMenu, showMobileMenu] = useState(false);
+  // const [logo, hideLogo] = useState(true);
   let position = useWindowScrollPosition();
-  
 
-  if (position.y > changePosition && !change) {
-    setChange(true);
-  }
+  useEffect(() => {
+    if (pathname === "/") {
+      setBgClass(position.y > scrollBreakPoint ? "" : styles[headerBgClass]);
+    } else {
+      setBgClass("");
+    }
+  }, [pathname, position.y]);
 
-  if (position.y <= changePosition && change) {
-    setChange(false);
-  }
-
-  let style = {
-    backgroundColor: useLocation().pathname === "/" && change ? "#0F0F0F" : "transparent",
-    background: useLocation().pathname !== "/" ? "white" : "transparent",
-    transition: "400ms ease",
-    height: "110px",
-boxShadow:useLocation().pathname === "/" && change ? "0px 15px 18px -1px rgba(0,0,0,0.75)": "none",
-opacity: useLocation().pathname !== "/"  ? "0.9" : "1",
-  };
-  
   return (
-    <div
-      className="mainHeaderBox"
-    
-     style={style}
-    >
-      <MainHeaderLogo />
-      <MainHeaderItemsBox />
+    <div className={`mainHeaderBox ${styles[headerClass]} ${bgClass}`}>
+      <MainHeaderLogo
+        logoWhite={apiData.logoWhite}
+        logoBlack={apiData.logoBlack}
+        // hide={logo}
+        // hideLogo={hideLogo}
+      />
+
+      <MainHeaderItemsBox
+        navigation={apiData.navigation}
+        callIconWhite={apiData.callIconWhite}
+        callIconBlack={apiData.callIconBlack}
+      />
+
+      <div>
+        <img
+          src={
+            useLocation().pathname === "/" ? Icon_Menu_white : Icon_Menu_Black
+          }
+          alt=""
+          className={styles.burgerMenu}
+          onClick={() => {
+            showMobileMenu(!mobileMenu);
+            // hideLogo(!logo);
+          }}
+        />
+      </div>
+      <MobileMenu
+        show={mobileMenu}
+        showMobileMenu={showMobileMenu}
+        navigation={apiData.navigation}
+      />
     </div>
   );
 }

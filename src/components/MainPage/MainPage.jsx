@@ -1,35 +1,24 @@
-import React, { useEffect, useState } from "react";
-import FirstSection from "./FirstSection/FirstSection";
-import ClientsSection from "./ClientsSection/ClientsSection";
-import SolutionsSection from "./SoluionsSection/SolutionsSection";
-import TestimonialsSection from "./TestimonialsSection/TestimonialsSection";
-import WorksSection from "./WorksSection/WorksSection";
-import AboutSection from "./AboutSection/AboutSection";
-import GetInTouchSection from "./GetInTouchSection/GetInTouchSection";
+import React, { useEffect } from "react";
+import TopIDToScroll from "../common/TopIDToScroll/";
+import FirstSection from "../common/VideoSection/";
+import ClientsSection from "../common/ClientsSection/";
+import SolutionsSection from "../common/SolutionsSection/SolutionsSection";
+import TestimonialsSection from "../common/TestimonialsSection/";
+import WorksSection from "../common/WorksSection/";
+import AboutSection from "../common/AboutSection/";
+import GetInTouchSection from "../common/GetInTouchSection/";
+import useFetchPageData from "../../utils/useFetchPageData";
 
 function App() {
-  const [hasError, setErrors] = useState(false);
-  const [apiData, setApiData] = useState({});
+  const apiData = useFetchPageData("homepage");
 
-  async function fetchData() {
-    const res = await fetch(
-      "https://cors-anywhere.herokuapp.com/http://php-mysql-stack-dnifq.run-eu-central1.goorm.io/index.php?p=homepage.json"
-    );
-    res
-      .json()
-      .then((res) => setApiData(res))
-      .catch((err) => setErrors(err));
-  }
   useEffect(() => {
-    fetchData();
+    window.scrollTo(0, 0);
   }, []);
 
-  console.log(apiData.solutions);
-  console.log(apiData);
-
-  console.log(hasError);
   return (
-    <div className="">
+    <div className="page">
+      <TopIDToScroll />
       <FirstSection headline={apiData.headline} />
       <ClientsSection client={apiData.client} />
       <SolutionsSection
@@ -37,7 +26,7 @@ function App() {
         solutions={apiData.solutions}
       />
       <TestimonialsSection reviews={apiData.reviews} />
-      <WorksSection works={apiData.works} />
+      {!!apiData.works && <WorksSection works={apiData.works} />}
       <AboutSection
         aboutBig={apiData.aboutBig}
         aboutSmall={apiData.aboutSmall}

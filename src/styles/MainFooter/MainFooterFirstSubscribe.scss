@@ -1,51 +1,53 @@
-.react-switch-handle::before{
-    content: "SUBSCRIBE";
-
-
+.react-switch-handle::before {
+  content: "SUBSCRIBE";
 }
 
-.react-switch-handle{
-    height: 60px !important;
-    width: 158px !important;
-    top: 0px !important;
-    left: -15px!important;
-    background-image: linear-gradient(270deg, #c69100 0%, #c69100 0%, #cb00ac 100%) !important;
-    text-align: center;
-    padding-top: 20px;
-    color: #ffffff;
-    outline: none;
-    border-radius: 300px !important;
-    outline: none !important;
-  
+.react-switch-handle {
+  height: 60px !important;
+  width: 158px !important;
+  top: 0px !important;
+  left: -15px !important;
+  background-image: linear-gradient(
+    270deg,
+    #c69100 0%,
+    #c69100 0%,
+    #cb00ac 100%
+  ) !important;
+  text-align: center;
+  padding-top: 20px;
+  color: #ffffff;
+  outline: none;
+  border-radius: 300px !important;
+  outline: none !important;
 }
-.main-footer-first-text{
-    color:$main-fontSize-for-text;
-    color:$main-white-color;
-    padding: 46px 0 20px 0;
+// .main-footer-first-text {
+//   color: $main-fontSize-for-text;
+//   color: $main-white-color;
+//   padding: 46px 0 20px 0;
+// }
+
+// .main-footer-first-subscribe-box{
+//     margin-left: 12%
+// }
+
+.react-switch {
+  // width: -550px;
+  // padding-left:20px
+}
+.react-switch-bg {
+  // width: 100px !important;
 }
 
-.main-footer-first-subscribe-box{
-    margin-left: 12%
-}
+// @media only screen and (max-width: 1500px) {
+//   .main-footer-first-subscribe-box {
+//     margin-left: 2%;
+//   }
+//   .react-switch-bg {
+//     width: 394px !important;
+//   }
 
-.react-switch{
-    // width: -550px;
-    // padding-left:20px
-}
-.react-switch-bg{
-    // width: 100px !important;
-}
-
-@media only screen and (max-width: 1500px) {
-    .main-footer-first-subscribe-box{
-        margin-left: 2%
-    }
-    .react-switch-bg{
-        width: 394px !important;
-    }
-    
-    .react-switch-handle{
-left:-20px !important;
-width: 158px !important;
-    }
-  }
+//   .react-switch-handle {
+//     left: -20px !important;
+//     width: 158px !important;
+//   }
+// }

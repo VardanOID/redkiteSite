@@ -1,14 +1,14 @@
 import React from "react";
-
+import Styles from "./IMGWithRightBox.module.scss";
 function ECommerceSeconfBoxBox(props) {
   return (
-    <div className="ecommerce-second-box-box">
+    <div className={Styles["ecommerce-second-box-box"]}>
       <div
-        className="ecommerce-second-box-title"
+        className={Styles["ecommerce-second-box-title"]}
         dangerouslySetInnerHTML={{ __html: props.title }}
       />
       <div
-        className="ecommerce-second-box-text"
+        className={Styles["ecommerce-second-box-text"]}
         dangerouslySetInnerHTML={{ __html: props.text }}
       />
     </div>

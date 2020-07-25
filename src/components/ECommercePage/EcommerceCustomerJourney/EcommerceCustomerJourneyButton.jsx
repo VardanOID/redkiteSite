@@ -1,10 +1,14 @@
 import React from "react";
-
+import Styles from "./GradientNumbersList.module.scss";
 
 function EcommerceCustomerJourneyButton() {
   return (
-    <div className="ecommerce-customer-journey-button-box">
-  <input type="button" value="DOWNLOAD A CONTENT" className="ecommerce-customer-journey-button-content"/>
+    <div className={Styles["ecommerce-customer-journey-button-box"]}>
+      <input
+        type="button"
+        value="DOWNLOAD A CONTENT"
+        className={Styles["ecommerce-customer-journey-button-content"]}
+      />
     </div>
   );
 }
