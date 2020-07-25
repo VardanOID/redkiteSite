@@ -11,7 +11,7 @@ const Loading = () => {
 
   return (
     <div className={styles.loadingAnimation}>
-      <img src={LoadingIcon} alt="RedKite loading animation" />
+      <img src={LoadingIcon} alt="RedKite loading animation!" />
     </div>
   );
 };
